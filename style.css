@@ -8,8 +8,9 @@
     display: flex;
     align-items: center;
     padding-left: 50px;
-    height: 90px;
-    background-color: rgb(74, 72, 206);
+    height: 120px;
+    font-size: 20px;
+    background-color:  rgb(229, 34, 40);;
 
 }
 
@@ -35,12 +36,7 @@
     margin-top: 50px;
 }
 
-.wow{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 140px;
-}
+
 
 .footer {
     position: absolute;
@@ -52,7 +48,7 @@
     align-items: center;
     padding-left: 50px;
     height: 90px;
-    background-color: rgb(74, 72, 206);
+    background-color: rgb(229, 34, 40);
 }
 
 .footer li{
@@ -61,8 +57,6 @@
 }
 
 .about form{
-
-    color: rgb(74, 72, 206);
     position: fixed; top: 50%; left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -71,9 +65,9 @@
 }
 
 .footer {
-
+    color: rgb(229, 34, 40);
     height: 30px;
     padding-top: 100px;
-    margin-bottom: -700px;
+    margin-bottom: -1000px;
     align-items:center;
 }
