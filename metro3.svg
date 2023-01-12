@@ -1,4 +1,4 @@
-<svg version="1.1" id="mosmetro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1624 767.271186440678" width="944" height="446"><g id="moving-wrapper" transform="translate(0 383.635593220339)"><g id="scaling-wrapper" transform="translate(520.8671946776493,-383.635593220339) scale(0.35853793758910185)"><g class="manual-marker marker-from"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g> <g class="manual-marker marker-to"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g>
+<svg version="1.1" id="mosmetro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1624 767.271186440678" width="1600" height="1200"><g id="moving-wrapper" transform="translate(0 383.635593220339)"><g id="scaling-wrapper" transform="translate(520.8671946776493,-383.635593220339) scale(0.35853793758910185)"><g class="manual-marker marker-from"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g> <g class="manual-marker marker-to"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g>
 <g class="lines" stroke-linecap="round" stroke-width="8px" fill="none">
 <g class="lnD1" stroke="#EFA81A" fill="none" stroke-width="8px">
 <line x1="150.5" y1="625.2" x2="150.5" y2="692.4" class="s271 s270" stroke="#EFA81A" fill="none" stroke-width="8px"></line>
@@ -1087,7 +1087,7 @@
 <text x="762" y="1069" class="s51" fill="#555555">Арбатская</text>
 <text x="1158" y="978" class="s53 s80 s306" fill="#555555">Курская</text>
 <text x="1201" y="938" class="s54" fill="#555555">Бауманская</text>
-<text x="1256" y="873" class="s55 s330" fill="#555555" onclick="alert('Пример 1 сработал')">Электрозаводская</text> 
+<text x="1256" y="873" class="s55 s330" fill="#555555">Электрозаводская</text> 
 <text x="1316" y="824" class="s56" fill="#555555">Семёновская</text>
 <text x="1364" y="777" class="s57" fill="#555555">Партизанская</text>
 <text x="1414" y="728" class="s58" fill="#555555">Измайловская</text>

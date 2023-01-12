@@ -202,3 +202,15 @@
     padding: 15px;
     overflow: auto;
   }
+
+  text {
+    transition: 300ms;
+    cursor: pointer;
+
+  }
+
+  text:hover {
+    fill: red;
+  }
+
+ 
