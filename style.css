@@ -94,28 +94,28 @@
     /* анимация перехода */
     pointer-events: none;
     /* элемент невидим для событий мыши */
-  }
+}
 
   /* при отображении модального окно */
   .modal:target {
     opacity: 1;
     pointer-events: auto;
     overflow-y: auto;
-  }
+}
 
   /* ширина модального окна и его отступы от экрана */
   .modal-dialog {
     position: relative;
     width: auto;
     margin: 10px;
-  }
+}
 
   @media (min-width: 576px) {
     .modal-dialog {
       max-width: 500px;
       margin: 30px auto;
     }
-  }
+}
 
   /* свойства для блока, содержащего контент модального окна */
   .modal-content {
@@ -135,14 +135,14 @@
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
     outline: 0;
-  }
+}
 
   @media (min-width: 768px) {
     .modal-content {
       -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
       box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     }
-  }
+}
 
   /* свойства для заголовка модального окна */
   .modal-header {
@@ -160,7 +160,7 @@
     justify-content: space-between;
     padding: 15px;
     border-bottom: 1px solid #eceeef;
-  }
+}
 
   .modal-title {
     margin-top: 0;
@@ -168,7 +168,7 @@
     line-height: 1.5;
     font-size: 1.25rem;
     font-weight: 500;
-  }
+}
 
   /* свойства для кнопки "Закрыть" */
   .close {
@@ -181,7 +181,7 @@
     text-shadow: 0 1px 0 #fff;
     opacity: .5;
     text-decoration: none;
-  }
+}
 
   /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
   .close:focus,
@@ -190,7 +190,7 @@
     text-decoration: none;
     cursor: pointer;
     opacity: .75;
-  }
+}
 
   /* свойства для блока, содержащего основное содержимое окна */
   .modal-body {
@@ -201,16 +201,49 @@
     flex: 1 1 auto;
     padding: 15px;
     overflow: auto;
-  }
+}
 
-  text {
+.text {
     transition: 300ms;
     cursor: pointer;
-
-  }
+    pointer-events: all;
+}
 
   text:hover {
     fill: red;
-  }
+    pointer-events: all;
+}
 
- 
+body {
+  background-color: #33333f;
+}
+
+#mypopup {
+  width: 400px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  background-color: white;
+  border-radius: 6px;
+  position: absolute;
+  display: none;
+}
+
+#mypopup::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  background-color: white;
+  position: absolute;
+  left: -6px;
+  top: 68px;
+}
+
+.station{
+  pointer-events: all;
+}
+
+.s56{
+  pointer-events: all;
+}
