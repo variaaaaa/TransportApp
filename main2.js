@@ -1,6 +1,6 @@
 var total = 158,
-    buttons = document.querySelector('.buttonsSt'),
-    pie = document.querySelector('.pieTest'),
+    buttons = document.querySelector('.buttons'),
+    pie = document.querySelector('.pie'),
     activeClass = 'active';
 
 var continents = {
@@ -17,9 +17,9 @@ var numberFixer = function(num){
   return result;
 }
 
-// create a button for each station
+// create a button for each country
 for(property in continents){
-  var newEl = document.createElement('buttonSt');
+  var newEl = document.createElement('button');
   newEl.innerText = property;
   newEl.setAttribute('data-name', property);
   buttons.appendChild(newEl);
@@ -52,5 +52,5 @@ var setActiveClass = function(el) {
 }
 
 // Set up default settings
-setPieChart('Комсомольская');
+setPieChart('asia');
 setActiveClass(buttons.children[0]);

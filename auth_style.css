@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #111011;
+}
+
+.container {
+    margin: 0px;   
+}
+.header {
+    margin: 0px;
+    margin-bottom: -30px;
+}
+.nav {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    object-position: center;
+    vertical-align: text-bottom;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.header-line {
+    padding-top: 25px;
+    display: flex;
+    margin: 0px;
+    padding-bottom: -20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 10px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.background-login {
+    padding-top: -10px;
+    margin: 0;
+    background-image: url(wallpaper.jpg); 
+    height: 88vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -40px;
+}
+
+.container-login-form {
+    margin: 0% 30%;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-top: 0px;
+    background-color: #c4c4c4;
+    background-size: cover;
+    width: 40%;
+    position:relative;
+    top: 100px;
+    text-align: center;
+}
+
+.elements-login {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.send-button {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 0;
+    position: relative;
+    bottom: 5px;
+}
+
+.down-line {
+    height: 2vh;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 2%;
+}
+.bottom-items {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    bottom: -20px;
+}
+
+.info {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 50px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}
