@@ -1,5 +1,5 @@
 <?php
-include "connectdb.php";
+include "php/connectdb.php";
 // Выводим результат из БД
 $sql = mysqli_query($connect, "SELECT NameOfStation, Income+Outcome as Stat FROM TopFive ORDER by Income+Outcome DESC Limit 5");
   while ($result = mysqli_fetch_array($sql)) {

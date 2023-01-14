@@ -2,14 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="feedback_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src = "main.js"></script>  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src = "js/main.js"></script>  
     <title>Транспорт Москвы</title>
 </head>
 <body>
@@ -1256,8 +1255,8 @@
 
 
 </body>
-<script src="main.js"></script>
-<script src="main2.js"></script>
+<script src="js/main.js"></script>
+<script src="js/main2.js"></script>
 </html>
 
 
