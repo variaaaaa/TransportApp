@@ -941,7 +941,7 @@
         <text x="437" y="878" class="s237" fill="#555555">Хорошёвская</text>
         <text x="389" y="894" class="s208 s236" fill="#555555">Шелепиха</text>
         <text x="453" y="997" class="s235 s193" fill="#555555">Деловой центр</text>
-        <text x="549" y="903" class="s122 s280" fill="#555555">Беговая</text>
+        
         <text x="904" y="700" class="s177" fill="#555555">Достоевская</text>
         <text x="1520" y="1052" class="s129" fill="#555555">Новокосино</text>
         <text x="1476" y="1008" class="s130" fill="#555555">Новогиреево</text>
@@ -995,7 +995,7 @@
       <text x="1167" y="1781" class="s38" fill="#555555">Домодедовская</text>
       <text x="1280" y="1889" class="s187" fill="#555555">Алма-Атинская</text>
       <text x="221" y="423" class="s40" fill="#555555">Митино</text>
-      <text x="220" y="505" class="s41 s327" fill="#555555">Волоколамская</text>
+      
       <text x="221" y="578" class="s42" fill="#555555">Мякинино</text>
       <text x="221" y="653" class="s43" fill="#555555">Строгино</text>
       <text x="221" y="727" class="s44" fill="#555555">Крылатское</text>
@@ -1082,7 +1082,7 @@
       <text x="596" y="742" class="s239" fill="#555555">Петровский парк</text>
       <text x="850" y="1620" class="s180 uc" fill="#999999">Варшавская</text>
       <text x="253" y="1019" class="s62" fill="#555555">Пионерская</text>
-      <text x="297" y="1155" class="s65 s278" fill="#555555">Фили</text>
+      
       <text x="220" y="941" class="s46 s61 s344" fill="#555555">Кунцевская</text>
       <text x="636" y="2057" class="s185" fill="#555555">Улица</text>
       <text x="636" y="2070" class="s185" fill="#555555">Горчакова</text>
@@ -1121,17 +1121,6 @@
       <text x="529" y="1811" class="s260" fill="#555555">Филатов Луг</text>
       <text x="528" y="1861" class="s261" fill="#555555">Прокшино</text>
       <text x="523" y="1970" class="s263" fill="#555555">Коммунарка</text>
-      <text x="384" y="140" class="s326" fill="#555555">Лобня</text>
-      <text x="557" y="140" class="s324" fill="#555555">Хлебниково</text>
-      <text x="443" y="171" class="s325" fill="#555555">Шереметьевская</text>
-      <text x="636" y="171" class="s291" fill="#555555">Водники</text>
-      <text x="710" y="140" class="s290" fill="#555555">Долгопрудная</text>
-      <text x="755" y="182" class="s289" fill="#555555">Новодачная</text>
-      <text x="802" y="255" class="s288" fill="#555555">Марк</text>
-      <text x="802" y="296" class="s287" fill="#555555">Лианозово</text>
-      <text x="802" y="357" class="s286" fill="#555555">Бескудниково</text>
-      <text x="803" y="397" class="s285" fill="#555555">Дегунино</text>
-      <text x="265" y="466" class="s298" fill="#555555">Трикотажная</text>
       <text x="646" y="636" class="s302" fill="#555555">Гражданская</text>
       <text x="1052" y="767" class="s305" fill="#555555">Площадь</text>
       <text x="1218" y="1039" class="s307" fill="#555555">Москва-</text>
@@ -1140,15 +1129,6 @@
       <text x="1212" y="1508" class="s312" fill="#555555">Депо</text>
       <text x="1181" y="1538" class="s313" fill="#555555">Перерва</text>
       <text x="1124" y="1600" class="s314" fill="#555555">Москворечье</text>
-      <text x="986" y="1744" class="s316" fill="#555555">Покровская</text>
-      <text x="986" y="1786" class="s317" fill="#555555">Красный</text>
-      <text x="986" y="1799" class="s317" fill="#555555">Строитель</text>
-      <text x="985" y="1840" class="s318" fill="#555555">Битца</text>
-      <text x="985" y="1881" class="s319" fill="#555555">Бутово</text>
-      <text x="985" y="1922" class="s320" fill="#555555">Щербинка</text>
-      <text x="986" y="1963" class="s321" fill="#555555">Остафьево</text>
-      <text x="986" y="2007" class="s322" fill="#555555">Силикатная</text>
-      <text x="986" y="2051" class="s323" fill="#555555">Подольск</text>
       <text x="1250" y="917" class="s269" fill="#555555">Лефортово</text>
       <text x="1228" y="1242" class="s114" fill="#555555">Волгоградский проспект</text>
       <text x="1369" y="887" class="s222" fill="#555555">Соколиная Гора</text>
@@ -1164,13 +1144,13 @@
       <text x="651" y="527" class="s202" fill="#555555">Коптево</text>
       <text x="783" y="1119" class="s73" fill="#555555">Александровский сад</text>
       <text x="573" y="573" class="s203" fill="#555555">Балтийская</text>
-      <text x="572" y="602" class="s301" fill="#555555">Красный Балтиец</text>
+      
       <text x="410" y="1099" class="s68" fill="#555555">Международная</text>
       <text x="1152" y="1569" class="s328" fill="#555555">Курьяново</text>
       <text x="196" y="1235" class="s343" fill="#555555">Давыдково</text>
       <text x="219" y="904" class="s345" fill="#555555">Терехово</text>
       <text x="1052" y="779" class="s305" fill="#555555">Трех Вокзалов</text>
-    </g>
+      </g>
     
     <g text-anchor="end" pointer-events="all">
       <g id="myicon" pointer-events="all">
@@ -1186,7 +1166,7 @@
           <text x="697" y="1266" class="s76 s97" fill="#555555">Октябрьская</text>
           
         <text x="1307" y="771" class="s223" fill="#555555">Измайлово</text>
-        <text x="498" y="657" class="s204" fill="#555555">Стрешнево</text>
+        
         <text x="382" y="809" class="s206" fill="#555555">Зорге</text>
         <text x="373" y="844" class="s207" fill="#555555">Хорошёво</text>
         <text x="870" y="1024" class="s10" fill="#555555">Охотный</text>
@@ -1236,30 +1216,13 @@
         <text x="575" y="1247" class="s14" fill="#555555">Фрунзенская</text>
         <text x="1307" y="1367" class="s113 s310" fill="#555555">Текстильщики</text>
         <text x="1111" y="1196" class="s135" fill="#555555">Марксистская</text>
-        <text x="805" y="558" class="s156 s283" fill="#555555">Тимирязевская</text>
-        <text x="806" y="600" class="s155 s303" fill="#555555">Дмитровская</text>
         <text x="808" y="763" class="s153" fill="#555555">Менделеевская</text>
         <text x="1184" y="1414" class="s170" fill="#555555">Кожуховская</text>
         <text x="1189" y="1853" class="s162" fill="#555555">Зябликово</text>
         <text x="1079" y="561" class="s105" fill="#555555">ВДНХ</text>
         <text x="1081" y="608" class="s104" fill="#555555">Алексеевская</text>
-        <text x="401" y="1007" class="s279" fill="#555555">Тестовская</text>
         <text x="385" y="1097" class="s209" fill="#555555">Деловой</text>
         <text x="385" y="1108" class="s209" fill="#555555">центр</text>
-        <text x="492" y="602" class="s300" fill="#555555">Стрешнево</text>
-        <text x="133" y="904" class="s275" fill="#555555">Рабочий</text>
-        <text x="133" y="917" class="s275" fill="#555555">Посёлок</text>
-        <text x="133" y="856" class="s274" fill="#555555">Сетунь</text>
-        <text x="133" y="809" class="s273" fill="#555555">Немчиновка</text>
-        <text x="133" y="745" class="s272" fill="#555555">Сколково</text>
-        <text x="133" y="697" class="s271" fill="#555555">Баковка</text>
-        <text x="133" y="630" class="s270" fill="#555555">Одинцово</text>
-        <text x="134" y="182" class="s292" fill="#555555">Нахабино</text>
-        <text x="135" y="229" class="s293" fill="#555555">Аникеевка</text>
-        <text x="134" y="278" class="s294" fill="#555555">Опалиха</text>
-        <text x="134" y="327" class="s295" fill="#555555">Красногорская</text>
-        <text x="134" y="380" class="s296" fill="#555555">Павшино</text>
-        <text x="134" y="429" class="s297" fill="#555555">Пенягино</text>
         <text x="365" y="882" class="s331" fill="#555555">Народное</text>
         <text x="365" y="895" class="s331" fill="#555555">Ополчение</text>
         <text x="291" y="853" class="s332" fill="#555555">Мнёвники</text>
@@ -1285,8 +1248,15 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
+<div class = "topFive">
+  <table bordercolor = "black" bgcolor = "white" width = "500" align="center">
+    <?php require "table.php"; ?>
+  </table>
+</div>
+
 </body>
 <script src="main.js"></script>
+<script src="main2.js"></script>
 </html>
 
 

@@ -104,16 +104,20 @@
 
 .mySVG{
   margin-left: -100px;
+  margin-top:-100px;
 }
 
-#mypopup { 
+#mypopup {
   width: 400px;
   padding: 20px;
   font-family: Arial, sans-serif;
   font-size: 10pt;
-  
-  background-color: rgb(12, 6, 6);
+  background-color: white;
   border-radius: 6px;
+  position: relative;
+  margin-left:-50%;
+  margin-top:10%;
+  margin-right:-90%;
   display: none;
 }
 
@@ -122,12 +126,87 @@
   width: 12px;
   height: 12px;
   transform: rotate(45deg);
-  background-color: rgb(8, 3, 3);
+  background-color: white;
   position: absolute;
-  left: -16px;
-  top: 250px;
+  left: -6px;
+  top: 68px;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+  }
+
+.topFive {
+  float:right;
+  caption-side: top;
+  border:#111011;
+  margin-bottom: 100px;
+  border-collapse: separate;
+  left: 550px;
+  margin-top: 1200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  position: absolute;
+  top: 165px;
+  right: -120px;
+  width: 50%;
+  border-radius: 10px;
   
 }
+
+
+.figure{
+  margin-top: 2000px;
+}
+#pieCircle {
+  fill: #ddd;
+  stroke: #0074d9;
+  stroke-width: 50;
+  stroke-dasharray: 0 158;
+  transition: stroke-dasharray 0.3s ease;
+}
+.pieTest {
+  margin: 0 auto;
+  transform: rotate(-90deg);
+  background: #ddd;
+  border-radius: 50%;
+  display: block;
+}
+
+button {
+  text-transform: capitalize;
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border: none;
+  margin-right: 5px;
+  background-color: transparent;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 2px;
+  transition: background-color 0.1s ease, color 0.2s ease;
+}
+button:last-of-type {
+  margin-right: 0;
+}
+button.active {
+  font-weight: 400;
+  background-color: #0074d9;
+  color: white;
+}
+figcaption {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 
 
 /* свойства модального окна по умолчанию */
