@@ -16,11 +16,10 @@
     <div class="container">
         <div class="nav">
             <ul class = "menu">
+                <li><a href="#image" class="here">Схема метро</a></li>
                 <li><a href="subway.html">Статистика по метро Москвы</a></li>
                 <li><a href="transport.html"> Статистика по всем видам транспорта Москвы</a></li>
-                <li><a href="#image">Схема метро</a></li>
-                <li><a href="auth.html">Войти</a></li>
-                <li><a href="reg.html">Зарегистрироваться</a></li>
+                <li><a href="start.html"> Выйти</a></li>
             </ul>
         </div>
     </div>
