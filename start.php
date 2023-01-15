@@ -345,17 +345,11 @@
     </g>
     <g fill="none" class="p2p2" stroke-width="8px">
     <line x1="1240.2" y1="831.3" x2="1263.5" y2="850.9" class="p330 p55 long" stroke="#6F4696" fill="none" stroke-width="6px"></line>
-    <path d="M416.2 1010l35-0c5.3,-4.6 11.5,-6.3 18.3,-4.6 10.6,2.5 17.1,13.2 14.6,23.7-0.9,3.9-3.1,7.5-6.1,10.2" class="p69 p279 long" stroke="#7AA276" fill="none" stroke-width="6px"></path>
-    <line x1="362.8" y1="638.4" x2="392.7" y2="615.4" class="p125 p329 long" stroke="#B82180" fill="none" stroke-width="6px"></line>
-    <polyline points="1191.32,1121.05 1175.6,1105.33 1218.39,1062.58 " class="p307 p134 long" stroke="#EE8F44" fill="none" stroke-width="6px"></polyline>
     <line x1="1207.5" y1="1306.6" x2="1228" y2="1255.3" class="p217 p114 long" stroke="#C43087" fill="none" stroke-width="6px"></line>
-    <path d="M1175.2 991.5l-22.2-0c0,0.2 0,0.4 0,0.6 0,8.5-6.9,15.4-15.4,15.4-4.1,0-8.1,-1.7-11,-4.6" class="p174 p306 long" stroke="#B5885F" fill="none" stroke-width="6px"></path>
-    <line x1="821.7" y1="682.1" x2="782.9" y2="643.3" class="p282 p154 long" stroke="#C8A667" fill="none" stroke-width="6px"></line>
     <line x1="1236.7" y1="624.1" x2="1269.1" y2="624.1" class="p1 p230 long" stroke="#E2324C" fill="none" stroke-width="6px"></line>
     <polyline points="379.315,904.445 416.248,904.234 416.247,1009.96 " class="p208 p279 long" stroke="#F38456" fill="none" stroke-width="6px"></polyline>
     <line x1="388.3" y1="845" x2="457.3" y2="862.6" class="p237 p207 long" stroke="#90889C" fill="none" stroke-width="6px"></line>
     <path d="M729.7 399.9c20.9,13.1 41.8,26.3 62.6,39.4l21.8 21.8" class="p246 p229 long" stroke="#C19766" fill="none" stroke-width="6px"></path>
-    <line x1="488.4" y1="615.4" x2="488.4" y2="637.2" class="p204 p300 long" stroke="#EA518C" fill="none" stroke-width="6px"></line>
     <line x1="388" y1="844.5" x2="457.4" y2="833.7" class="p123 p207 long" stroke="#C43087" fill="none" stroke-width="6px"></line>
     <line x1="547.2" y1="1323.3" x2="547.2" y2="1292.1" class="p15 p210 long" stroke="#E2324C" fill="none" stroke-width="6px"></line>
     <line x1="1149.1" y1="1354.2" x2="1175.9" y2="1299.7" class="p171 p216 long" stroke="#C19766" fill="none" stroke-width="6px"></line>
@@ -365,35 +359,14 @@
     <line x1="1096.2" y1="490" x2="1110.4" y2="521.9" class="p106 p227 long" stroke="#FB6F49" fill="none" stroke-width="6px"></line>
     <line x1="371.4" y1="747.7" x2="419.6" y2="747.7" class="p124 p205 long" stroke="#C43087" fill="none" stroke-width="6px"></line>
     <line x1="517.3" y1="639.5" x2="558.4" y2="567.8" class="p22 p203 long" stroke="#806759" fill="none" stroke-width="6px"></line>
-    <line x1="608.7" y1="817.6" x2="662.1" y2="817.5" class="p84 p281 long" stroke="#B7540D" fill="none" stroke-width="6px"></line>
-    <line x1="1312.2" y1="1387.9" x2="1322.3" y2="1349.5" class="p113 p310 long" stroke="#B82180" fill="none" stroke-width="6px"></line>
-    <line x1="1306.6" y1="1173.6" x2="1329.4" y2="1173.6" class="p218 p309 long" stroke="#EA518C" fill="none" stroke-width="6px"></line>
-    <line x1="536.2" y1="890" x2="536.2" y2="912.5" class="p122 p280 long" stroke="#C0544A" fill="none" stroke-width="6px"></line>
     <line x1="1148.4" y1="1354.4" x2="1175.5" y2="1384.1" class="p216 p170 long" stroke="#C19766" fill="none" stroke-width="6px"></line>
     <line x1="821.7" y1="1468.6" x2="885.3" y2="1442" class="p146 p213 long" stroke="#CC82A3" fill="none" stroke-width="6px"></line>
-    <line x1="1050.3" y1="1681.5" x2="1050.3" y2="1649.8" class="p36 p315 uc long" stroke="#7D7D7D" fill="none" stroke-width="6px" stroke-opacity="0.25"></line>
-    <line x1="1259" y1="1441.1" x2="1231.2" y2="1441" class="p169 p348 long" stroke="#B5885F" fill="none" stroke-width="6px"></line>
-    <line x1="1175.6" y1="1105.3" x2="1218.4" y2="1062.6" class="p173 p307 long" stroke="#B5885F" fill="none" stroke-width="6px"></line>
-    <line x1="1153" y1="991.4" x2="1175.2" y2="991.5" class="p80 p306 long" stroke="#AE2142" fill="none" stroke-width="6px"></line>
-    <line x1="1096.5" y1="788.5" x2="1096.5" y2="819.2" class="p6 p305 long" stroke="#D52345" fill="none" stroke-width="6px"></line>
-    <line x1="1028.6" y1="688.8" x2="1028.7" y2="720.7" class="p103 p304 uc long" stroke="#7D7D7D" fill="none" stroke-width="6px" stroke-opacity="0.25"></line>
-    <line x1="340.1" y1="530.6" x2="362.8" y2="508.4" class="p126 p299 long" stroke="#B82180" fill="none" stroke-width="6px"></line>
-    <line x1="488.4" y1="615.4" x2="517.3" y2="639.5" class="p22 p300 long" stroke="#745852" fill="none" stroke-width="6px"></line>
     <line x1="397.1" y1="809.6" x2="371.7" y2="748" class="p206 p124 long" stroke="#C43087" fill="none" stroke-width="6px"></line>
-    <line x1="151.1" y1="957.3" x2="208.3" y2="923.4" class="p46 p276 long" stroke="#7B6851" fill="none" stroke-width="6px"></line>
-    <line x1="291.9" y1="1134.3" x2="324.9" y2="1134.3" class="p65 p278 long" stroke="#7AA276" fill="none" stroke-width="6px"></line>
     <line x1="416.2" y1="1010" x2="416.2" y2="1077.9" class="p68 p279 long" stroke="#7AA276" fill="none" stroke-width="6px"></line>
     <line x1="416.2" y1="1010" x2="416.2" y2="904" class="p236 p279 long" stroke="#8CAC60" fill="none" stroke-width="6px"></line>
     <line x1="416.2" y1="1010" x2="449.8" y2="1010" class="p235 p279 long" stroke="#8CAC60" fill="none" stroke-width="6px"></line>
-    <line x1="608.7" y1="817.6" x2="639.4" y2="817.6" class="p26 p281 long" stroke="#7C8B1D" fill="none" stroke-width="6px"></line>
-    <line x1="782.9" y1="643.3" x2="807.9" y2="668.2" class="p255 p282 long" stroke="#8CAC60" fill="none" stroke-width="6px"></line>
-    <line x1="809.8" y1="615.4" x2="821.7" y2="586.2" class="p155 p303 long" stroke="#C0739C" fill="none" stroke-width="6px"></line>
-    <line x1="792.2" y1="536.4" x2="821.7" y2="548.9" class="p156 p283 long" stroke="#C8A667" fill="none" stroke-width="6px"></line>
     <line x1="729.7" y1="399.9" x2="792.4" y2="439.4" class="p246 p284 long" stroke="#BDBB2A" fill="none" stroke-width="6px"></line>
     <line x1="792.2" y1="439.3" x2="814.1" y2="461.1" class="p229 p284 long" stroke="#F38456" fill="none" stroke-width="6px"></line>
-    <path d="M1175.2 991.4l-22.2 0c-0.3,-8.4-7.1,-14.9-15.3,-14.9" class="p53 p306 long" stroke="#723587" fill="none" stroke-width="6px"></path>
-    <line x1="151.1" y1="957.3" x2="243" y2="957.3" class="p276 p61 long" stroke="#7AA276" fill="none" stroke-width="6px"></line>
-    <line x1="151.1" y1="957.3" x2="184.3" y2="974" class="p344 p276 long" stroke="#8CAC60" fill="none" stroke-width="6px"></line>
     <line x1="1442.7" y1="1536.5" x2="1463.1" y2="1536.5" class="p190 p256" stroke="#B4328F" fill="none" stroke-width="8px"></line>
     <line x1="824.2" y1="508.4" x2="846.9" y2="508.4" class="p157 p234" stroke="#97B977" fill="none" stroke-width="8px"></line>
     <line x1="914.4" y1="440.9" x2="923.8" y2="461.3" class="p158 p228" stroke="#CC82A3" fill="none" stroke-width="8px"></line>
@@ -449,10 +422,8 @@
     <path d="M795.5 973.7c-1.3,-2.3-2,-4.9-2,-7.6 0,-8.4 6.8,-15.1 15.1,-15.1" class="p28 p119" stroke="#4E374D" fill="none" stroke-width="8px"></path>
     <path d="M821.7 973.7c-2.7,4.7-7.7,7.6-13.1,7.6-5.4,0-10.4,-2.9-13.1,-7.6" class="p151 p28" stroke="#568A6A" fill="none" stroke-width="8px"></path>
     <path d="M808.6 951c8.4,0 15.1,6.8 15.1,15.1 0,2.7-0.7,5.3-2,7.6" class="p151 p119" stroke="#9A5297" fill="none" stroke-width="8px"></path>
-    <line x1="238.3" y1="1134.3" x2="238.3" y2="1157.1" class="p47 p277" stroke="#7B6851" fill="none" stroke-width="8px"></line>
     <line x1="1339.1" y1="1091.4" x2="1375.5" y2="1072" class="p264 p219" stroke="#E7629B" fill="none" stroke-width="8px"></line>
     <line x1="1297" y1="992.9" x2="1320.1" y2="992.9" class="p133 p268" stroke="#EBA153" fill="none" stroke-width="8px"></line>
-    <line x1="231.7" y1="478.6" x2="208.8" y2="501.2" class="p327 p41" stroke="#723587" fill="none" stroke-width="8px"></line>
     <path d="M478.1 1039.3c-4.8,4.3-11.4,5.9-17.7,4.4-7.5,-1.8-13.2,-7.7-14.7,-15.2" class="p69 p193" stroke="#82BC6B" fill="none" stroke-width="8px"></path>
     <path d="M445.7 1028.5c-0.6,-2.8-0.5,-5.7 0.1,-8.5 0.8,-3.4 2.5,-6.5 4.8,-9" class="p193 p235" stroke="#94C754" fill="none" stroke-width="8px"></path>
     <path d="M450.7 1011c4.8,-5.1 12,-7.3 18.9,-5.6 10.6,2.5 17.1,13.2 14.6,23.7-0.9,3.9-3.1,7.5-6.1,10.2" class="p235 p69" stroke="#17A6BC" fill="none" stroke-width="8px"></path>
@@ -466,16 +437,13 @@
     <g fill="none" stroke="#FFFFFF" stroke-width="2px">
     <line x1="1240.2" y1="831.3" x2="1263.5" y2="850.9" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <path d="M416.2 1010l35-0c5.3,-4.6 11.5,-6.3 18.3,-4.6 10.6,2.5 17.1,13.2 14.6,23.7-0.9,3.9-3.1,7.5-6.1,10.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
-    <line x1="362.8" y1="638.4" x2="392.7" y2="615.4" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <polyline points="1191.32,1121.05 1175.6,1105.33 1218.39,1062.58 " stroke="#FFFFFF" fill="none" stroke-width="2px"></polyline>
     <line x1="1207.5" y1="1306.6" x2="1228" y2="1255.3" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <path d="M1175.2 991.5l-22.2-0c0,0.2 0,0.4 0,0.6 0,8.5-6.9,15.4-15.4,15.4-4.1,0-8.1,-1.7-11,-4.6" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
-    <line x1="821.7" y1="682.1" x2="782.9" y2="643.3" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
+    <line x1="821.7" y1="682.1" x2="782.9" y2="633.3" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1236.7" y1="624.1" x2="1269.1" y2="624.1" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <polyline points="379.315,904.445 416.248,904.234 416.247,1009.96 " stroke="#FFFFFF" fill="none" stroke-width="2px"></polyline>
     <line x1="388.3" y1="845" x2="457.3" y2="862.6" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <path d="M729.7 399.9c20.9,13.1 41.8,26.3 62.6,39.4l21.8 21.8" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
-    <line x1="488.4" y1="615.4" x2="488.4" y2="637.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="388" y1="844.5" x2="457.4" y2="833.7" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="547.2" y1="1323.3" x2="547.2" y2="1292.1" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1149.1" y1="1354.2" x2="1175.9" y2="1299.7" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
@@ -485,35 +453,16 @@
     <line x1="1096.2" y1="490" x2="1110.4" y2="521.9" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="371.4" y1="747.7" x2="419.6" y2="747.7" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="517.3" y1="639.5" x2="558.4" y2="567.8" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="608.7" y1="817.6" x2="662.1" y2="817.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="1312.2" y1="1387.9" x2="1322.3" y2="1349.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="1306.6" y1="1173.6" x2="1329.4" y2="1173.6" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="536.2" y1="890" x2="536.2" y2="912.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1148.4" y1="1354.4" x2="1175.5" y2="1384.1" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="821.7" y1="1468.6" x2="885.3" y2="1442" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="1050.3" y1="1681.5" x2="1050.3" y2="1649.8" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="1259" y1="1441.1" x2="1231.2" y2="1441" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="1175.6" y1="1105.3" x2="1218.4" y2="1062.6" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1153" y1="991.4" x2="1175.2" y2="991.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1096.5" y1="788.5" x2="1096.5" y2="819.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="1028.6" y1="688.8" x2="1028.7" y2="720.7" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="340.1" y1="530.6" x2="362.8" y2="508.4" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="488.4" y1="615.4" x2="517.3" y2="639.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="397.1" y1="809.6" x2="371.7" y2="748" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="151.1" y1="957.3" x2="208.3" y2="923.4" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="291.9" y1="1134.3" x2="324.9" y2="1134.3" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="416.2" y1="1010" x2="416.2" y2="1077.9" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="416.2" y1="1010" x2="416.2" y2="904" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="416.2" y1="1010" x2="449.8" y2="1010" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="608.7" y1="817.6" x2="639.4" y2="817.6" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="782.9" y1="643.3" x2="807.9" y2="668.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="809.8" y1="615.4" x2="821.7" y2="586.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="792.2" y1="536.4" x2="821.7" y2="548.9" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="729.7" y1="399.9" x2="792.4" y2="439.4" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="792.2" y1="439.3" x2="814.1" y2="461.1" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <path d="M1175.2 991.4l-22.2 0c-0.3,-8.4-7.1,-14.9-15.3,-14.9" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
-    <line x1="151.1" y1="957.3" x2="243" y2="957.3" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="151.1" y1="957.3" x2="184.3" y2="974" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1442.7" y1="1536.5" x2="1463.1" y2="1536.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="824.2" y1="508.4" x2="846.9" y2="508.4" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="914.4" y1="440.9" x2="923.8" y2="461.3" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
@@ -554,10 +503,8 @@
     <circle cx="1123.8" cy="1173.2" r="15.5" stroke="#FFFFFF" fill="none" stroke-width="2px"></circle>
     <circle cx="999.7" cy="894.3" r="14.8" stroke="#FFFFFF" fill="none" stroke-width="2px"></circle>
     <circle cx="808.6" cy="966.1" r="15.1" stroke="#FFFFFF" fill="none" stroke-width="2px"></circle>
-    <line x1="238.3" y1="1134.3" x2="238.3" y2="1157.1" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1339.1" y1="1091.4" x2="1375.5" y2="1072" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <line x1="1297" y1="992.9" x2="1320.1" y2="992.9" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
-    <line x1="231.7" y1="478.6" x2="208.8" y2="501.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></line>
     <path d="M478.1 1039.3c-4.8,4.3-11.4,5.9-17.7,4.4-7.5,-1.8-13.2,-7.7-14.7,-15.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
     <path d="M445.7 1028.5c-0.6,-2.8-0.5,-5.7 0.1,-8.5 0.8,-3.4 2.5,-6.5 4.8,-9" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
     <path d="M450.7 1011c4.8,-5.1 12,-7.3 18.9,-5.6 10.6,2.5 17.1,13.2 14.6,23.7-0.9,3.9-3.1,7.5-6.1,10.2" stroke="#FFFFFF" fill="none" stroke-width="2px"></path>
@@ -922,33 +869,31 @@
     <rect x="937" y="639" width="30" height="11" fill="#FFFFFF"></rect>
     <rect x="1237" y="929" width="17" height="12" fill="#FFFFFF"></rect>
     <rect x="1268" y="971" width="23" height="12" fill="#FFFFFF"></rect>
-    <rect x="351" y="999" width="44" height="12" fill="#FFFFFF"></rect>
     <rect x="663" y="732" width="39" height="13" fill="#FFFFFF"></rect>
     <rect x="895" y="1087" width="36" height="13" fill="#FFFFFF"></rect>
     <rect x="151" y="1155" width="54" height="25" fill="#FFFFFF"></rect>
     <rect x="546" y="1532" width="62" height="14" fill="#FFFFFF"></rect>
     <rect x="219" y="931" width="62" height="14" fill="#FFFFFF"></rect>
-    <rect x="1057" y="758" width="24" height="11" fill="#FFFFFF"></rect>
     </g>
     <g id="myicon" pointer-events="all">
     <g text-anchor="start" pointer-events="all">
-     
         <text x="440" y="1147" class="s67" fill="#555555">Студенческая</text>
         <text x="846" y="1097" class="s52" fill="#555555">Площадь Революции</text>
         <text x="1158" y="543" class="s226" fill="#555555">Ростокино</text>
         <text x="437" y="878" class="s237" fill="#555555">Хорошёвская</text>
         <text x="389" y="894" class="s208 s236" fill="#555555">Шелепиха</text>
         <text x="453" y="997" class="s235 s193" fill="#555555">Деловой центр</text>
-        
         <text x="904" y="700" class="s177" fill="#555555">Достоевская</text>
         <text x="1520" y="1052" class="s129" fill="#555555">Новокосино</text>
         <text x="1476" y="1008" class="s130" fill="#555555">Новогиреево</text>
         <text x="987" y="1297" class="s78 s31" fill="#555555">Павелецкая</text>
         <text x="1108" y="836" class="s81 s6" fill="#555555">Комсомольская</text>
+        <text x="549" y="903" class="s122 s280" fill="#555555">Беговая</text>
         <text x="1284" y="668" class="s224" fill="#555555">Локомотив</text>
       <text x="1364" y="1034" class="s220" fill="#555555">Андроновка</text>
       <text x="1373" y="1091" class="s219 s264" fill="#555555">Нижегородская</text>
       <text x="1309" y="1197" class="s218 s309" fill="#555555">Новохохловская</text>
+      <text x="220" y="505" class="s41 s327" fill="#555555">Волоколамская</text>
       <text x="561" y="1325" class="s210" fill="#555555">Лужники</text>
       <text x="431" y="763" class="s205" fill="#555555">Панфиловская</text>
       <text x="735" y="1415" class="s212" fill="#555555">Крымская</text>
@@ -993,7 +938,6 @@
       <text x="1167" y="1781" class="s38" fill="#555555">Домодедовская</text>
       <text x="1280" y="1889" class="s187" fill="#555555">Алма-Атинская</text>
       <text x="221" y="423" class="s40" fill="#555555">Митино</text>
-      
       <text x="221" y="578" class="s42" fill="#555555">Мякинино</text>
       <text x="221" y="653" class="s43" fill="#555555">Строгино</text>
       <text x="221" y="727" class="s44" fill="#555555">Крылатское</text>
@@ -1080,7 +1024,6 @@
       <text x="596" y="742" class="s239" fill="#555555">Петровский парк</text>
       <text x="850" y="1620" class="s180 uc" fill="#999999">Варшавская</text>
       <text x="253" y="1019" class="s62" fill="#555555">Пионерская</text>
-      
       <text x="220" y="941" class="s46 s61 s344" fill="#555555">Кунцевская</text>
       <text x="636" y="2057" class="s185" fill="#555555">Улица</text>
       <text x="636" y="2070" class="s185" fill="#555555">Горчакова</text>
@@ -1120,13 +1063,10 @@
       <text x="528" y="1861" class="s261" fill="#555555">Прокшино</text>
       <text x="523" y="1970" class="s263" fill="#555555">Коммунарка</text>
       <text x="646" y="636" class="s302" fill="#555555">Гражданская</text>
-      <text x="1052" y="767" class="s305" fill="#555555">Площадь</text>
+
       <text x="1218" y="1039" class="s307" fill="#555555">Москва-</text>
       <text x="1218" y="1052" class="s307" fill="#555555">Товарная</text>
       <text x="1255" y="1088" class="s308" fill="#555555">Калитники</text>
-      <text x="1212" y="1508" class="s312" fill="#555555">Депо</text>
-      <text x="1181" y="1538" class="s313" fill="#555555">Перерва</text>
-      <text x="1124" y="1600" class="s314" fill="#555555">Москворечье</text>
       <text x="1250" y="917" class="s269" fill="#555555">Лефортово</text>
       <text x="1228" y="1242" class="s114" fill="#555555">Волгоградский проспект</text>
       <text x="1369" y="887" class="s222" fill="#555555">Соколиная Гора</text>
@@ -1142,19 +1082,18 @@
       <text x="651" y="527" class="s202" fill="#555555">Коптево</text>
       <text x="783" y="1119" class="s73" fill="#555555">Александровский сад</text>
       <text x="573" y="573" class="s203" fill="#555555">Балтийская</text>
-      
       <text x="410" y="1099" class="s68" fill="#555555">Международная</text>
-      <text x="1152" y="1569" class="s328" fill="#555555">Курьяново</text>
       <text x="196" y="1235" class="s343" fill="#555555">Давыдково</text>
       <text x="219" y="904" class="s345" fill="#555555">Терехово</text>
-      <text x="1052" y="779" class="s305" fill="#555555">Трех Вокзалов</text>
       </g>
-    
     <g text-anchor="end" pointer-events="all">
       <g id="myicon" pointer-events="all">
         <text x="803" y="1312" class="s77" fill="#555555">Добрынинская</text>
           <text x="403" y="1163" class="s66 s231" fill="#555555">Кутузовская</text>
           <text x="644" y="1409" class="s211" fill="#555555">Площадь</text>
+          <text x="805" y="558" class="s156 s283" fill="#555555">Тимирязевская</text>
+          <text x="806" y="600" class="s155 s303" fill="#555555">Дмитровская</text>
+          <text x="498" y="657" class="s204" fill="#555555">Стрешнево</text>
           <text x="644" y="1422" class="s211" fill="#555555">Гагарина</text>
           <text x="673" y="1887" class="s191" fill="#555555">Битцевский парк</text>
           <text x="786" y="1958" class="s182" fill="#555555">Улица Старокачаловская</text>
@@ -1162,9 +1101,7 @@
           <text x="623" y="1186" class="s75 s13" fill="#555555">Парк</text>
           <text x="623" y="1199" class="s75 s13" fill="#555555">культуры</text>
           <text x="697" y="1266" class="s76 s97" fill="#555555">Октябрьская</text>
-          
         <text x="1307" y="771" class="s223" fill="#555555">Измайлово</text>
-        
         <text x="382" y="809" class="s206" fill="#555555">Зорге</text>
         <text x="373" y="844" class="s207" fill="#555555">Хорошёво</text>
         <text x="870" y="1024" class="s10" fill="#555555">Охотный</text>
@@ -1198,10 +1135,7 @@
         <text x="785" y="2003" class="s183" fill="#555555">Улица Скобелевская</text>
         <text x="223" y="1165" class="s47 s277" fill="#555555">Славянский</text>
         <text x="223" y="1178" class="s47 s277" fill="#555555">бульвар</text>
-        <text x="135" y="960" class="s276" fill="#555555">Кунцево</text>
-        <text x="324" y="540" class="s299" fill="#555555">Тушино</text>
         <text x="265" y="1096" class="s64" fill="#555555">Багратионовская</text>
-        <text x="1211" y="1474" class="s311" fill="#555555">Люблино</text>
         <text x="1137" y="1350" class="s171 s216" fill="#555555">Дубровка</text>
         <text x="553" y="951" class="s121" fill="#555555">Улица</text>
         <text x="553" y="964" class="s121" fill="#555555">1905 года</text>
@@ -1233,19 +1167,16 @@
         <text x="342" y="1479" class="s247 s338" fill="#555555">проспект</text>
         <text x="270" y="1370" class="s337" fill="#555555">Аминьевская</text>
       </g>
-    
-    
-      
     </g>
   </g>
 </g>
 </svg>
 </div>
-<div id="mypopup">
+<!-- <div id="mypopup">
   <h3>Popup title</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+</div> -->
 <div class = "topFive">
   <table bordercolor = "black" bgcolor = "white" width = "500" align="center">
     <?php require "php/table.php"; ?>
