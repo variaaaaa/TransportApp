@@ -1,338 +1,144 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color:  rgb(235, 225, 225);
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+:root {
+  --color-1: #b8d9fa;
+  --color-2: #b721ff;
+  --color-3: #08aeea;
+  --color-4: #b2d8f4;
 }
-.here{
-  font-weight: bold;
-  text-decoration: underline;
+body {
+  font-family: 'Varela Round', sans-serif;
 }
-.menu {
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-    height: 120px;
-    font-size: 20px;
-    background-color:  rgb(229, 34, 40);
-
-}
-
-.menu li a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    background-color:  rgb(229, 34, 40);
-}
-
-.menu li {
-    list-style-type: none;
-    margin-right: 50px;
-    background-color:  rgb(229, 34, 40);
-}
-
-#mosmetro{
-  position: absolute;
-  top: 10;
-  z-index: -1;
-}
-
-.myicon{
-  z-index: 0;
-  cursor: pointer;
-}
-
-.myicon2{
-  z-index: 0;
-  cursor: pointer;
-}
-
-
-.about form {
-    text-align: center;
-
-}
-
-.about form p {
-    margin-top: 50px;
-}
-
-
-
-.footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-    height: 90px;
-    background-color: rgb(229, 34, 40);
-}
-
-.footer li{
-    list-style-type: none;
-    color: rgb(192, 162, 162);
-}
-
-.about form{
-    position: fixed; top: 50%; left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align:center;
-}
-
-.footer {
-    color: rgb(229, 34, 40);
-    height: 30px;
-    padding-top: 100px;
-    margin-bottom: -1000px;
-    align-items:center;
-}
-
-
-
-.text {
-    cursor: pointer;
-    pointer-events: all;
-}
-
-  text:hover {
-    fill: red;
-    pointer-events: all;
-}
-
-.mySVG{
-  margin-left: -100px;
-  margin-top:-100px;
-}
-
-#mypopup {
-  width: 400px;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  font-size: 10pt;
-  background-color: white;
-  border-radius: 6px;
+.Header {
   position: relative;
-  margin-left:-50%;
-  margin-top:10%;
-  margin-right:-90%;
-  display: none;
-}
-
-#mypopup::before {
-  content: "";
-  width: 12px;
-  height: 12px;
-  transform: rotate(45deg);
-  background-color: white;
-  position: absolute;
-  left: -6px;
-  top: 68px;
-}
-
-table {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 14px;
-  border-radius: 10px;
-  border-spacing: 0;
-  text-align: center;
-  }
-
-.topFive {
-  float:right;
-  caption-side: top;
-  border:#111011;
-  margin-bottom: 100px;
-  border-collapse: separate;
-  left: 550px;
-  margin-top: 1200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
-  position: absolute;
-  top: 165px;
-  right: -120px;
-  width: 50%;
-  border-radius: 10px;
-  
-}
-
-
-.figure{
-  margin-top: 2000px;
-}
-#pieCircle {
-  fill: #ddd;
-  stroke: #0074d9;
-  stroke-width: 50;
-  stroke-dasharray: 0 158;
-  transition: stroke-dasharray 0.3s ease;
-}
-.pieTest {
-  margin: 0 auto;
-  transform: rotate(-90deg);
-  background: #ddd;
-  border-radius: 50%;
+  height: 80vh;
   display: block;
 }
 
-button {
-  text-transform: capitalize;
-  font-size: 13px;
-  cursor: pointer;
-  -webkit-appearance: none;
-  border: none;
-  margin-right: 5px;
-  background-color: transparent;
-  padding: 5px 10px;
-  outline: none;
-  border-radius: 2px;
-  transition: background-color 0.1s ease, color 0.2s ease;
-}
-button:last-of-type {
-  margin-right: 0;
-}
-button.active {
-  font-weight: 400;
-  background-color: #0074d9;
-  color: white;
-}
-figcaption {
-  margin-bottom: 20px;
-  font-size: 22px;
+.guest{
+    margin-top: 260px;
+    padding: 1.5rem 2rem;
+  border: 0;
+  color: var(--color-3);
+  font-size: 1.2rem;
   font-weight: bold;
+  border-radius: 3px;
+  transition: all 0.2s;
+  cursor: pointer;
+  
+}
+.Header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(19deg, var(--color-1), var(--color-2));
+  transform-origin: 0px 0px;
+  transform: skewY(-10deg);
+  overflow: hidden;
+  z-index: -1;
+}
+.Header-background::before,
+.Header-background::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 33.333333333333336%;
+  opacity: 0.3;
+  filter: blur(15px);
+}
+.Header-background::before {
+  background: var(--color-1);
+  right: 0;
+}
+.Header-background::after {
+  background: var(--color-2);
+  bottom: 0;
+}
+.Header-content {
+  text-align: center;
+  padding: 4rem 4rem;
+  margin: 0 auto;
+}
+@media (min-width: 58rem) {
+  .Header-content {
+    text-align: left;
+    padding: 10rem 4rem;
+    max-width: 54rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.Header-hero h1,
+.Header-hero p {
+  color: #fff;
+  text-shadow: 0 0.5rem 1rem rgba(50,0,100,0.1);
+}
+.Header-hero h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+.Header-hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.Header-visuals {
+  position: relative;
+  margin-top: 5rem;
+  transform: rotate(-10deg);
+}
+@media (min-width: 58rem) {
+  .Header-visuals {
+    margin: 0;
+    transform: translateY(-5rem) rotate(-10deg);
+  }
+}
+.Button {
+  padding: 1.5rem 2rem;
+  border: 0;
+  color: var(--color-3);
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 3px;
+  transition: all 0.2s;
+  cursor: pointer;
+  box-shadow: 0 1.75rem 2rem -0.4rem rgba(50,0,100,0.15);
+}
+.Button:hover {
+  color: var(--color-4);
+  box-shadow: 0 1.75rem 3rem 0rem rgba(50,0,100,0.1);
+  transform: scale(1.05);
+}
+.Button:active {
+  box-shadow: 0 1.75rem 2.5rem -0.2rem rgba(50,0,100,0.125);
+  transform: scale(1.025);
+}
+.Iphone {
+  display: inline-block;
+  background: #fff;
+  padding: 4rem 0.6rem 0;
+  border-radius: 2rem;
+  box-shadow: -1rem 1.75rem 2rem -0.4rem rgba(50,0,100,0.1), -0.2rem 0.2rem 0.5rem rgba(50,0,100,0.05), inset 0.5rem -0.5rem 0.5rem -0.4rem rgba(50,0,100,0.1);
   text-align: center;
 }
-
-/* свойства модального окна по умолчанию */
-.modal {
-  position: fixed;
-  /* фиксированное положение */
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  /* цвет фона */
-  z-index: 1050;
-  opacity: 0;
-  /* по умолчанию модальное окно прозрачно */
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
-  /* анимация перехода */
-  pointer-events: none;
-  /* элемент невидим для событий мыши */
+.Iphone::before,
+.Iphone::after {
+  content: '';
+  display: block;
 }
-
-/* при отображении модального окно */
-.modal:target {
-  opacity: 1;
-  pointer-events: auto;
-  overflow-y: auto;
+.Iphone::before {
+  background-color: var(--color-3);
+  background-image: linear-gradient(0deg, var(--color-3) 0%, var(--color-4) 100%);
+  width: 16rem;
+  padding-top: 177.5%;
 }
-
-/* ширина модального окна и его отступы от экрана */
-.modal-dialog {
-  position: relative;
-  width: auto;
-  margin: 10px;
-}
-
-@media (min-width: 576px) {
-  .modal-dialog {
-    max-width: 500px;
-    margin: 30px auto;
-  }
-}
-
-/* свойства для блока, содержащего контент модального окна */
-.modal-content {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: #fff;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, .2);
-  border-radius: .3rem;
-  outline: 0;
-}
-
-@media (min-width: 768px) {
-  .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-  }
-}
-
-/* свойства для заголовка модального окна */
-.modal-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 15px;
-  border-bottom: 1px solid #eceeef;
-}
-
-.modal-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.5;
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-/* свойства для кнопки "Закрыть" */
-.close {
-  float: right;
-  font-family: sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: .5;
-  text-decoration: none;
-}
-
-/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
-.close:focus,
-.close:hover {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-  opacity: .75;
-}
-
-/* свойства для блока, содержащего основное содержимое окна */
-.modal-body {
-  position: relative;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 15px;
-  overflow: auto;
+.Iphone::after {
+  display: inline-block;
+  margin: 0.6rem;
+  padding: 1.4rem;
+  border: 1px solid #f1f1f1;
+  border-radius: 2rem;
+  box-shadow: inset -0.05rem 0.05rem 0.5rem 0rem rgba(50,0,100,0.05);
 }

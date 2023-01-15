@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/start_style.css">
     <script src = "js/main.js"></script>  
     <title>Транспорт Москвы</title>
 </head>
@@ -16,10 +16,10 @@
     <div class="container">
         <div class="nav">
             <ul class = "menu">
-                <li><a href="#image" class="here">Схема метро</a></li>
-                <li><a href="subway.html">Статистика по метро Москвы</a></li>
-                <li><a href="transport.html"> Статистика по всем видам транспорта Москвы</a></li>
-                <li><a href="start.html"> Выйти</a></li>
+                <li><a href="#image" class="text" id="here">Схема метро</a></li>
+                <li><a href="subway.html" class="text">Статистика по метро Москвы</a></li>
+                <li><a href="transport.html"class="text"> Статистика по всем видам транспорта Москвы</a></li>
+                <li><a href="index.html" class="text"> Выйти</a></li>
             </ul>
         </div>
     </div>
