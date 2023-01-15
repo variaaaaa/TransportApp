@@ -51,12 +51,15 @@
             </div>
         </div>
     </header>
-		<select name="option" id="option">
-			<option value="1">3 квартал 2022</option>
+	<div class="box">
+  		<select name="option" id="option">
+		  <option value="1">3 квартал 2022</option>
 			<option value="2">2 квартал 2022</option>
 		</select>
 
-        <div class="chart-container" style="position: relative; width:80vw">
+       
+	</div>
+	<div class="chart-container" style="position: relative; margin-top:90px;margin-left:100px; width:80vw">
             <canvas id="my_Chart"></canvas>
         </div>
 
