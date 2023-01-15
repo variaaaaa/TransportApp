@@ -1248,7 +1248,7 @@
 </div>
 <div class = "topFive">
   <table bordercolor = "black" bgcolor = "white" width = "500" align="center">
-    <?php require "table.php"; ?>
+    <?php require "php/table.php"; ?>
   </table>
 </div>
 
