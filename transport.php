@@ -7,7 +7,7 @@
 	
 	// Select query to fetch data with page load
 	$sql = "SELECT TransportType, Amount FROM TopTransport";
-	$result = $connect->query($sql);
+	$result = $con->query($sql);
 	
 	// Create data in comma separated string
 	while($row = $result->fetch_assoc()){

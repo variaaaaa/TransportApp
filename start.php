@@ -1,3 +1,5 @@
+<?php
+require("session.php");?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +21,10 @@
                 <li><a href="#image" class="text" id="here">Схема метро</a></li>
                 <li><a href="subway.html" class="text">Статистика по метро Москвы</a></li>
                 <li><a href="transport.php"class="text"> Статистика по всем видам транспорта Москвы</a></li>
+                <?php if(isset($session_user)):?>
+                  <li><a href="#">Вы зашли под аккаунтом <?=$session_user?></a></li>
+                  <li><a href="map.html" class="text"> Карта</a></li>
+                <?php endif;?>
                 <li><a href="index.html" class="text"> Выйти</a></li>
             </ul>
         </div>
