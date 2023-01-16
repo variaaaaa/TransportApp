@@ -14,7 +14,7 @@
 <body>
 <?php
 require('php/connectdb.php');
-session_start();
+
 if (isset($_POST['username'])){
         // removes backslashes
 	$username = stripslashes($_REQUEST['username']);
@@ -28,11 +28,13 @@ if (isset($_POST['username'])){
 	$rows = mysqli_num_rows($result);
         $session_user = $username;
         if($rows==1){
-	    $_SESSION['username'] = $username;
-            // Redirect user to index.php
-	    header("Location: start.php");
+               
+            
+                session_start();
+                $_SESSION["username"] = mysqli_fetch_assoc($result);
+                header("Location: start.php");
          }else{
-			echo "<h3>Username/password is incorrect.</h3>";
+		echo "<h3>Username/password is incorrect.</h3>";
 	}
     }else{
 ?>
