@@ -1,9 +1,6 @@
 
 <?php
 require("session.php");?>
-    
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,15 +48,15 @@ require("session.php");?>
     </div>
 </header>
 
-<div id="tabs"  style="width: 95%">
+<div id="tabs" style="width: 95%; color: black; background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);">
     <ul>
-        <li><a href="#tab-1">Описание</a></li>
-        <li><a href="#tab-2">Карта</a></li>
+        <li><a href="#tab-1" style="color: black;">Описание</a></li>
+        <li><a href="#tab-2" style="color: black;">Карта</a></li>
     </ul>
-    <div id="tab-1">
+    <div id="tab-1" style="background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);">
         <p>Во вкладке Карта находится карта Москвы</p>
     </div>
-    <div id="tab-2" style="width: 100%; height: 300px; padding: 0; color:black;"></div>
+    <div id="tab-2" style="width: 100%; height: 500px; padding: 0; color:black;"></div>
 </div>
 </body>
 

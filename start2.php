@@ -1,81 +1,53 @@
 <?php
 require("session.php");?>
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Транспорт Москвы</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#!">Транспорт Москвы</a>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/start_style.css">
+    <script src = "js/main.js"></script>  
+    <title>Транспорт Москвы</title>
+</head>
+<body>
+<header id = "header" class="header">
+    <div class="container">
+        <div class="nav">
+            <ul class = "menu">
+                <li><a href="#image" class="text" id="here">Схема метро</a></li>
+                <li><a href="subway.php" class="text">Статистика по метро Москвы</a></li>
+                <li><a href="transport.php"class="text"> Статистика по всем видам транспорта Москвы</a></li>
                 <?php if($session_user):?>
+                  <li><a href="map.php" class="text"> Карта</a></li>
                   <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
                 <?php endif;?>
+               
                 <li><a href="logout.php" class="text"> Выйти</a></li>
-            </div>
-        </nav>
-        <!-- Header-->
-        
-        <!-- Features section-->
-        <section class="py-5 border-bottom" id="features">
-            <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                        <h2 class="h4 fw-bolder">Статистика по метро Москвы</h2>
-                        <p>Самые загруженные станции метро за последний квартал.</p>
-                        <a class="text-decoration-none" href="subway.php">
-                            Перейти
-                            <i class="bi bi-arrow-right" href="hi.php"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder">Статистика по транспорту Москвы</h2>
-                        <p>Кроме метро, в городе также есть автобусы, электробусы и трамваи. Узнайте количество пассажиров на данных видах транспорта.</p>
-                        <a class="text-decoration-none" href="transport.php">
-                            Перейти
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <?php if($session_user):?>
-                                  
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                        <h2 class="h4 fw-bolder">Карта</h2>
-                        <p> Карта для авторизованных пользователей.</p>
-                        <a class="text-decoration-none" href="map.php">
-                            Перейти
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <?php endif;?>
-                </div>
-            </div>
-        </section>
-        <!-- Pricing section-->
-        <section class="bg-light py-5 border-bottom">
-            <div class="container px-5 my-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Схема метро</h2>
-                    
-                </div>
-                
-            </div>
-            <div class="mySVG">
-<svg version="1.1" id="mosmetro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1624 767.271186440678" width="1300" height="1500"><g id="moving-wrapper" transform="translate(0 383.635593220339)"><g id="scaling-wrapper" transform="translate(520.8671946776493,-383.635593220339) scale(0.35853793758910185)"><g class="manual-marker marker-from"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g> <g class="manual-marker marker-to"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g>
+            </ul>
+        </div>
+    </div>
+</header>
+
+  <div id="openModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">ВДНХ</h3>
+          <a href="#close" title="Close" class="close">×</a>
+        </div>
+        <div class="modal-body">
+          <a href="hi.html"> Тут будет инфа из датасета :) </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="mySVG">
+<svg version="1.1" id="mosmetro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1624 767.271186440678" width="1600" height="1200"><g id="moving-wrapper" transform="translate(0 383.635593220339)"><g id="scaling-wrapper" transform="translate(520.8671946776493,-383.635593220339) scale(0.35853793758910185)"><g class="manual-marker marker-from"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g> <g class="manual-marker marker-to"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g>
   <g class="lines" stroke-linecap="round" stroke-width="8px" fill="none">
     <g class="ln11" stroke="#29B1A6" fill="none" stroke-width="8px">
     <line x1="457.4" y1="862.9" x2="542.1" y2="778.2" class="s237 s238" stroke="#29B1A6" fill="none" stroke-width="8px"></line>
@@ -1203,53 +1175,21 @@ require("session.php");?>
 </g>
 </svg>
 </div>
-        </section>
-        <!-- Testimonials section-->
-        <section class="py-5 border-bottom">
-            <div class="container px-5 my-5 px-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Факты о Московском метро</h2>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <!-- Testimonial 1-->
-                        <div class="card mb-4">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">«Воробьёвы горы» — самая длинная станция московского метрополитена. Длина платформы составляет 284 метра. Чтобы пройти ее от начала до конца, придётся потратить 4 минуты.</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Testimonial 2-->
-                        <div class="card">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">Станция «Выхино» самая загруженная станция московского метрополитена, благодаря чему появился так называемый «Эффект Выхино». Он заключается в том, что поезда на станции в час пик заполняются настолько, что на следующих станциях, вплоть до пересадки на Кольцевую линию, поместиться в вагоны другим пассажирам невозможно.</p>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-       
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+<!-- <div id="mypopup">
+  <h3>Popup title</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div> -->
+<div class = "topFive">
+  <table bordercolor = "black" bgcolor = "white" width = "500" align="center">
+    <?php require "php/table.php"; ?>
+  </table>
+</div>
+
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/main2.js"></script>
 </html>
+
+
