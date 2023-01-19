@@ -19,7 +19,7 @@ require("session.php");?>
         <div class="nav">
             <ul class = "menu">
                 <li><a href="#image" class="text" id="here">Схема метро</a></li>
-                <li><a href="subway.html" class="text">Статистика по метро Москвы</a></li>
+                <li><a href="subway.php" class="text">Статистика по метро Москвы</a></li>
                 <li><a href="transport.php"class="text"> Статистика по всем видам транспорта Москвы</a></li>
                 <?php if($session_user):?>
                   <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>

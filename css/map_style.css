@@ -1,0 +1,32 @@
+
+
+.text{
+
+color: black;
+}
+#here{
+font-weight: bold;
+text-decoration: underline;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  height: 120px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
+}
+
+
+.menu li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+ 
+}
+
+.menu li {
+  list-style-type: none;
+  margin-right: 50px;
+  
+}

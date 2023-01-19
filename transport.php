@@ -20,6 +20,8 @@
 	$val = trim($datas, ",");
 
 ?>
+<?php
+require("session.php");?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,8 +46,12 @@
             <div class="nav">
                 <ul class = "menu">
                     <li><a href="start.php" class="text" >Схема метро</a></li>
-                    <li><a href="subway.html" class="text">Статистика по метро Москвы</a></li>
+                    <li><a href="subway.php" class="text">Статистика по метро Москвы</a></li>
                     <li><a href="transport.php"class="text" id="here"> Статистика по всем видам транспорта Москвы</a></li>
+					<?php if($session_user):?>
+                  <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
+                  <li><a href="map.html" class="text"> Карта</a></li>
+                <?php endif;?>
                     <li><a href="index.html" class="text"> Выйти</a></li>
                 </ul>
             </div>
