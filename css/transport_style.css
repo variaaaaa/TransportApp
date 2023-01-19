@@ -1,41 +1,46 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color:  #fff;
-    
+
+.header{
+  margin-top:-20px;
+  margin-left: -20px;
+  margin-right:-20px;
+}
+
+.map{
+  margin-top: 200px;
 }
 
 .text{
   
   color: black;
 }
+
 #here{
   font-weight: bold;
   text-decoration: underline;
-}
-.menu {
+  }
+  .menu {
     display: flex;
     align-items: center;
     padding-left: 50px;
     height: 120px;
     font-size: 20px;
-    background-color:  #b8d9fa;
-
-}
-
-.menu li a{
+    background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
+  }
+  
+  
+  .menu li a{
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    background-color:  #b8d9fa
-}
-
-.menu li {
+   
+  }
+  
+  .menu li {
     list-style-type: none;
     margin-right: 50px;
-    background-color:  #b8d9fa;
-}
+    
+  }
+  
 
 .box {
     position: absolute;

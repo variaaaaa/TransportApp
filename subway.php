@@ -11,6 +11,9 @@ require("session.php");?>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/subway_style.css">
     <title>Транспорт Москвы</title>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+    <script src="js/subway.js"></script>
 </head>
 <body>
 <header id = "header" class="header">
@@ -21,8 +24,8 @@ require("session.php");?>
                 <li><a href="" class="text" id="here">Статистика по метро Москвы</a></li>
                 <li><a href="transport.php"class="text"> Статистика по всем видам транспорта Москвы</a></li>
                 <?php if($session_user):?>
-                <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
                 <li><a href="map.html" class="text"> Карта</a></li>
+                <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
                 <?php endif;?>
                 <li><a href="index.html" class="text"> Выйти</a></li>
             </ul>
@@ -30,28 +33,6 @@ require("session.php");?>
     </div>
 </header>
 <body>
-  <div class="canvas">  
-    <div class="legend">
-      <p class="title">Самые загруженные станции Московского метро за 3 квартал 2022 года </p>    
-      <ul class="caption-list">
-        <li class="caption-item">Комсомольская</li>
-        <li class="caption-item">ВДНХ</li>
-        <li class="caption-item">Щёлковская</li>
-        <li class="caption-item">Новогиреево</li>
-        <li class="caption-item">Выхино</li>
-        
-      </ul>
-    </div>
-    
-    <svg class="chart" width="500" height="500" viewBox="0 0 50 50">
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
-    </svg>
-  </div>
-</body>
-  
+    <div id="container"></div>
+  </body>
+</html>

@@ -37,12 +37,12 @@ require("session.php");?>
     <div class="container">
         <div class="nav">
             <ul class = "menu">
-                <li><a href="#image" class="text" id="here">Схема метро</a></li>
+                <li><a href="#image" class="text" >Схема метро</a></li>
                 <li><a href="subway.php" class="text">Статистика по метро Москвы</a></li>
                 <li><a href="transport.php"class="text"> Статистика по всем видам транспорта Москвы</a></li>
                 <?php if($session_user):?>
+                    <li><a href="map.html" class="text"id="here"> Карта</a></li>
                   <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
-                  <li><a href="map.html" class="text"> Карта</a></li>
                 <?php endif;?>
                
                 <li><a href="logout.php" class="text"> Выйти</a></li>
@@ -59,7 +59,7 @@ require("session.php");?>
     <div id="tab-1">
         <p>Во вкладке Карта находится карта Москвы</p>
     </div>
-    <div id="tab-2" style="width: 100%; height: 300px; padding: 0;"></div>
+    <div id="tab-2" style="width: 100%; height: 300px; padding: 0; color:black;"></div>
 </div>
 </body>
 
