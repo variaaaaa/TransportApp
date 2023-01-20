@@ -13,7 +13,7 @@ require("session.php");?>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/start_style.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -1211,8 +1211,7 @@ require("session.php");?>
                     <h2 class="fw-bolder">Факты о Московском метро</h2>
                 </div>
                 <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <!-- Testimonial 1-->
+                    <div class="col-lg-7">
                         <div class="card mb-4">
                             <div class="card-body p-4">
                                 <div class="d-flex">
@@ -1224,13 +1223,22 @@ require("session.php");?>
                                 </div>
                             </div>
                         </div>
-                        <!-- Testimonial 2-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4" style="margin-top:10px;">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Станция «Выхино» самая загруженная станция московского метрополитена, благодаря чему появился так называемый «Эффект Выхино». Он заключается в том, что поезда на станции в час пик заполняются настолько, что на следующих станциях, вплоть до пересадки на Кольцевую линию, поместиться в вагоны другим пассажирам невозможно.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card">
                             <div class="card-body p-4">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
-                                        <p class="mb-1">Станция «Выхино» самая загруженная станция московского метрополитена, благодаря чему появился так называемый «Эффект Выхино». Он заключается в том, что поезда на станции в час пик заполняются настолько, что на следующих станциях, вплоть до пересадки на Кольцевую линию, поместиться в вагоны другим пассажирам невозможно.</p>
+                                        <p class="mb-1">В 1940 году на станции Московского метро «Динамо» по ночам работали учёные-физики. Расположенная на 40-метровой глубине станция отлично была защищена от радиоволн, что, собственно, им и требовалось.</p>
                                        
                                     </div>
                                 </div>

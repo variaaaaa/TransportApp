@@ -22,6 +22,7 @@ session_start();
 </header>
 <?php
 require('php/connectdb.php');
+
 // If form submitted, insert values into the database.
 if (isset($_REQUEST['username'])){
         // removes backslashes
@@ -30,14 +31,20 @@ if (isset($_REQUEST['username'])){
 	$username = mysqli_real_escape_string($con,$username); 
 	$password = stripslashes($_REQUEST['password']);
 	$password = mysqli_real_escape_string($con,$password);
-	
-    $query = "INSERT into `Users` (username, password)
-VALUES ('$username', '".md5($password)."')";
-        $result = mysqli_query($con,$query);
-        if($result){
-            header("Location:  login.php");
+    $test = mysqli_query($con,"SELECT username FROM Users WHERE username='".$_POST['username']."'");
+        if(mysqli_num_rows($test) >0){
+            echo '<b margin-top="20px" margin-left="30px"> Такой пользователь уже существует! </b>';
         }
+        else{
+            $query = "INSERT into `Users` (username, password)
+            VALUES ('$username', '".md5($password)."')";
+                    $result = mysqli_query($con,$query);
+                    if($result){
+                        header("Location:  login.php");
+                    }
+                }
     }else{
+    
 ?>
 <div class="form">
 <form name="registration" action="" method="post">

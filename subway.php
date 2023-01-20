@@ -20,7 +20,7 @@ require("session.php");?>
     <div class="container">
         <div class="nav">
             <ul class = "menu">
-                <li><a href="start.php" class="text">Схема метро</a></li>
+                <li><a href="start.php" class="text">На главную</a></li>
                 <li><a href="" class="text" id="here">Статистика по метро Москвы</a></li>
                 <li><a href="transport.php"class="text"> Статистика по всем видам транспорта Москвы</a></li>
                 <?php if($session_user):?>

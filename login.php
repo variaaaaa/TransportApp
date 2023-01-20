@@ -28,8 +28,6 @@ if (isset($_POST['username'])){
 	$rows = mysqli_num_rows($result);
         $session_user = $username;
         if($rows==1){
-               
-            
                 session_start();
                 $_SESSION["username"] = mysqli_fetch_assoc($result);
                 header("Location: start.php");
