@@ -1,5 +1,5 @@
 <?php
-require("session.php");?>
+require("php\session.php");?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,6 +22,9 @@ require("session.php");?>
                 <a class="navbar-brand" href="#!">Транспорт Москвы</a>
                 <?php if($session_user):?>
                   <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
+                <?php endif;?>
+                <?php if($session_user["role"] == "admin"):?>
+                  <li><a href="users.php">Все зарегистрированные пользователи</a></li>
                 <?php endif;?>
                 <li><a href="logout.php" class="text"> Выйти</a></li>
             </div>
@@ -50,18 +53,20 @@ require("session.php");?>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
-                    <?php if($session_user):?>
-                                  
+                   
+                
                     <div class="col-lg-4">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
                         <h2 class="h4 fw-bolder">Карта</h2>
-                        <p> Карта для авторизованных пользователей.</p>
+                        <p> Карта доступна авторизованным пользователям.</p>
+                        <?php if($session_user):?>
                         <a class="text-decoration-none" href="map.php">
                             Перейти
                             <i class="bi bi-arrow-right"></i>
                         </a>
+                        <?php endif;?>
                     </div>
-                    <?php endif;?>
+                   
                 </div>
             </div>
         </section>

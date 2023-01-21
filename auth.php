@@ -1,11 +1,7 @@
 <?php
 require_once ('php/connectdb.php'); // For storing username and password.
-
 session_start();
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,6 +27,7 @@ if (isset($_REQUEST['username'])){
 	$username = mysqli_real_escape_string($con,$username); 
 	$password = stripslashes($_REQUEST['password']);
 	$password = mysqli_real_escape_string($con,$password);
+    $role = ("user");
     $test = mysqli_query($con,"SELECT username FROM Users WHERE username='".$_POST['username']."'");
         if(mysqli_num_rows($test) >0){
             echo '<b margin-top="20px" margin-left="30px"> Такой пользователь уже существует! </b>';

@@ -5,11 +5,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image:linear-gradient(19deg, var(#b8d9fa), var(#b721ff));
-    
 }
 body{
-    background: #b8d9fa;
+    background: rgb(171, 203, 248);
     font-family: 'Varela Round', sans-serif;
 }
 

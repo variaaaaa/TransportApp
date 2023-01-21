@@ -21,7 +21,7 @@
 
 ?>
 <?php
-require("session.php");?> 
+require("php\session.php");?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -93,12 +93,11 @@ require("session.php");?>
 				data: myData    // Chart data
 			});
 
-
 			// Draw chart with Ajax request
 			$('#option').on('change', function (e) {
 				var type = this.value;
 				$.ajax({
-					url: 'http://localhost/chart_ajax_php/get_data.php',
+					url: 'http://localhost:3000/get_data.php',
 					dataType: 'json',
 					data: {'id':type},
 					success: function(e){
@@ -114,7 +113,6 @@ require("session.php");?>
 					}
 				});
 			});
-
 		</script>
 
 	</body>
