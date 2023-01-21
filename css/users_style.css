@@ -523,3 +523,16 @@ button:not(:disabled),
   width: 4rem;
   font-size: 2rem;
 }
+
+footer{
+    margin-bottom:0px;
+    margin-top:200px;
+}
+
+.table{
+    margin-top:150px;
+}
+
+.navigation{
+    margin-top:5px;
+}
