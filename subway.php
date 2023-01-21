@@ -41,12 +41,11 @@ require("php\session.php");?>
 		</span>
 		<h3>Линии</h3>
 		<span>
-			<a href="#button1">vampiro</a>
-			<a href="/">vampiro</a>
-			<a href="/">vampiro</a>
-			<a href="/">vampiro</a>
-			<a href="/">vampiro</a>
-			<a href="/">vampiro</a>
+			<a href="#button1">Все линии Московского метрополитена</a>
+			<a href="#button2">Самые загруженные линии за 3 квартал 2022 года</a>
+			<a href="#button3">Самые загруженные линии за 2 квартал 2022 года</a>
+			<a href="#button4">Самые загруженные линии за 1 квартал 2022 года</a>
+			<a href="#button5">Диаграммы</a>
 		</span>
 	</div>
 	<div class="page">
@@ -90,7 +89,63 @@ require("php\session.php");?>
                 <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
                 
             </div> 
+            <div id="button1" style="display: block;">      
+                <h1>Общая таблица</h1>
+                <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
+                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
+                <br> А вот и табличка: </br>
+                <div class = "topFive">
+                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <?php require "php\secondTable.php"; ?>
+                    </table>
+                </div>
+            </div>
+            <div id="button2" style="display: block;">      
+                <h1>Общая таблица</h1>
+                <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
+                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
+                <br> А вот и табличка: </br>
+                <div class = "topFive">
+                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <?php require "php\secondTable.php"; ?>
+                    </table>
+                </div>
+            </div> 
+            <div id="button3" style="display: block;">      
+                <h1>Общая таблица</h1>
+                <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
+                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
+                <br> А вот и табличка: </br>
+                <div class = "topFive">
+                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <?php require "php\secondTable.php"; ?>
+                    </table>
+                </div>
+            </div> 
+            <div id="button4" style="display: block;">      
+                <h1>Общая таблица</h1>
+                <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
+                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
+                <br> А вот и табличка: </br>
+                <div class = "topFive">
+                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <?php require "php\secondTable.php"; ?>
+                    </table>
+                </div>
+            </div> 
+            <div id="button5" style="display: block;">      
+                <h1>Общая таблица</h1>
+                <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
+                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
+                <br> А вот и табличка: </br>
+                <div class = "topFive">
+                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <?php require "php\secondTable.php"; ?>
+                    </table>
+                </div>
+            </div>
 
+                    
  																						
 		
     </div>
