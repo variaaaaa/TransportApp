@@ -1257,7 +1257,11 @@ require("php\session.php");?>
        
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        <div class="container px-5"><p class="m-0 text-center text-white">Сайт создан на основе открытых данных г. Москва</p></div>
+        <div class="container px-5"><p class="m-0 text-center text-white"> <a href="https://data.mos.ru/opendata/7704786030-passajiropotok-po-stantsiyam-moskovskogo-metropolitena">Пассажиропоток по станциям Московского метрополитена
+                        </a> </p></div>
+        <div class="container px-5"><p class="m-0 text-center text-white"><a href ="https://data.mos.ru/opendata/7704786030-passajiropotok-po-marshrutam-nazemnogo-gorodskogo-passajirskogo-transporta?pageNumber=280&versionNumber=1&releaseNumber=1"> Пассажиропоток по маршрутам наземного городского пассажирского транспорта
+                        </a> </p> </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
