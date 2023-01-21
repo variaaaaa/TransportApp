@@ -4,7 +4,7 @@ require("php\session.php");?>
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/subway_style.css">
+    <link rel="stylesheet" type="text/css" href="css/diagrams_style.css">
     <title>Транспорт Москвы</title>
     <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
     <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
