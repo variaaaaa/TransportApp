@@ -29,7 +29,7 @@ if (isset($_POST['username'])){
                 $_SESSION["username"] = mysqli_fetch_assoc($result);
                 header("Location: start.php");
          }else{
-		echo "<h3>Username/password is incorrect.</h3>";
+		echo "<h3>Логин или пароль неверны.</h3>";
 	}
     }else{
 ?>
