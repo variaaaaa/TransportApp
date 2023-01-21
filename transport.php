@@ -49,22 +49,15 @@ require("php\session.php");?>
                     <li><a href="subway.php" class="text">Статистика по метро Москвы</a></li>
                     <li><a href="transport.php"class="text" id="here"> Статистика по всем видам транспорта Москвы</a></li>
 					<?php if($session_user):?>
-						<li><a href="map.html" class="text"> Карта</a></li>
+						<li><a href="map.php" class="text"> Карта</a></li>
                   		<li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
                 <?php endif;?>
                     <li><a href="index.html" class="text"> Выйти</a></li>
                 </ul>
             </div>
         </div>
-    </header>
-	<div class="box">
-  		<select name="option" id="option">
-		  <option value="1">3 квартал 2022</option>
-			<option value="2">2 квартал 2022</option>
-		</select>
-
-       
-	</div>
+    </header>	
+	<h1>3 квартал 2022</h1>
 	<div class="chart-container" style="position: relative; margin-top:90px;margin-left:100px; width:80vw">
             <canvas id="my_Chart"></canvas>
         </div>

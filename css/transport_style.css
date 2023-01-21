@@ -14,6 +14,11 @@
   color: black;
 }
 
+h1{
+  text-align: center;
+ 
+}
+
 #here{
   font-weight: bold;
   text-decoration: underline;

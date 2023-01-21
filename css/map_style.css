@@ -23,16 +23,14 @@ text-decoration: underline;
   background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
 }
 
-
 .menu li a{
   text-transform: uppercase;
   text-decoration: none;
   color: black;
- 
 }
 
 .menu li {
   list-style-type: none;
   margin-right: 50px;
-  
+
 }

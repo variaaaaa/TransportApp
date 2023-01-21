@@ -24,20 +24,6 @@ body{
     padding-left: 40px;
     margin-left: 35px;
 }
-.background{
-    width: 430px;
-    height: 520px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-}
-.background .shape{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
-}
 
 form{
     height: 520px;
@@ -83,9 +69,6 @@ input{
     font-size: 14px;
     font-weight: 300;
 }
-::placeholder{
-    color: #7f3636;
-}
 button{
     margin-top: 50px;
     width: 100%;
@@ -97,4 +80,3 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-

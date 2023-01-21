@@ -244,11 +244,6 @@ button:not(:disabled),
     flex: 0 0 auto;
     width: 33.33333333%;
   }
-
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
 }
 .form-control[type=file]:not(:disabled):not([readonly]) {
   cursor: pointer;
