@@ -4,19 +4,11 @@ require("php\session.php");?>
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/subway_style.css">
     <title>Транспорт Москвы</title>
     <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
     <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Roboto:500" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
+   
     <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
     <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
 </head>
@@ -48,7 +40,7 @@ require("php\session.php");?>
 		</span>
 		<h3>Линии</h3>
 		<span>
-			<a href="/">vampiro</a>
+			<a href="#button1">vampiro</a>
 			<a href="/">vampiro</a>
 			<a href="/">vampiro</a>
 			<a href="/">vampiro</a>
@@ -98,6 +90,11 @@ require("php\session.php");?>
                 </div>
             </div>
         </div>
+        <div id="botoni3">
+                </div>
+		</div>																									
+		
+		
     </div>
     
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
