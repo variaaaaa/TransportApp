@@ -42,9 +42,9 @@ require("php\session.php");?>
 		<h3>Линии</h3>
 		<span>
 			<a href="#button1">Все линии Московского метрополитена</a>
-			<a href="#button2">Самые загруженные линии за 3 квартал 2022 года</a>
-			<a href="#button3">Самые загруженные линии за 2 квартал 2022 года</a>
-			<a href="#button4">Самые загруженные линии за 1 квартал 2022 года</a>
+			<a href="#button2">Пассажиропоток по линиям за 3 квартал 2022 года</a>
+			<a href="#button3">Пассажиропоток по линиям за 2 квартал 2022 года</a>
+			<a href="#button4">Пассажиропоток по линиям за 1 квартал 2022 года</a>
 			<a href="#button5">Диаграммы</a>
 		</span>
 	</div>
@@ -107,7 +107,7 @@ require("php\session.php");?>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\button1Table.php"; ?>
+                    <?php require "php\button2Table.php"; ?>
                     </table>
                 </div>
             </div> 
@@ -118,7 +118,7 @@ require("php\session.php");?>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\secondTable.php"; ?>
+                    <?php require "php\button3Table.php"; ?>
                     </table>
                 </div>
             </div> 
@@ -129,7 +129,7 @@ require("php\session.php");?>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\secondTable.php"; ?>
+                    <?php require "php\button4Table.php"; ?>
                     </table>
                 </div>
             </div> 
