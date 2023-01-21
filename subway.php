@@ -53,7 +53,7 @@ require("php\session.php");?>
             <div id="botoni1" style="display: block;">      
                 <h1>Общая таблица</h1>
                 <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
-                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
+                <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы или диаграммы(для диаграмм присутвует отдельная страница).</br>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
@@ -63,7 +63,7 @@ require("php\session.php");?>
             </div>           
             
             <div id="botoni2" style="display: block;">      
-                <h1>Общая таблица</h1>
+                <h1> Топ-5 самых загруженных станций. 3 квартал 2022 года</h1>
                 <br> В Москве 230+ станций. Какие-то из станций более популярны, чем другие. Но если посмотреть на пассажиропоток ВСЕХ станций в одном месте, ничего толком не понят (эта табличка и представлена после текста).</br>
                 <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы и/или диаграммы.</br>
                 <br> А вот и табличка: </br>
@@ -96,7 +96,7 @@ require("php\session.php");?>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\secondTable.php"; ?>
+                    <?php require "php\button1Table.php"; ?>
                     </table>
                 </div>
             </div>
@@ -107,7 +107,7 @@ require("php\session.php");?>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\secondTable.php"; ?>
+                    <?php require "php\button1Table.php"; ?>
                     </table>
                 </div>
             </div> 
