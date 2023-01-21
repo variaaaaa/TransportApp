@@ -30,9 +30,11 @@
   }
   
 .header{
+	background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
 	margin-top:-20px;
 	margin-left: -20px;
 	margin-right:-20px;
+	width:100%;
   }
   
   .text{
@@ -45,6 +47,7 @@
 	text-decoration: underline;
 	}
 	.menu {
+		width:300%;
 	  display: flex;
 	  align-items: center;
 	  padding-left: 50px;
