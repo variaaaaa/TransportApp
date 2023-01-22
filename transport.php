@@ -6,13 +6,13 @@
 	$labels = $datas = "";
 	
 	// Select query to fetch data with page load
-	$sql = "SELECT TransportType, Amount FROM TopTransport";
+	$sql = "SELECT TransportType, sum(PassengerTraffic) as summa FROM Transport where year='2022' and quarter='III квартал' GROUP BY TransportType";
 	$result = $con->query($sql);
 	
 	// Create data in comma separated string
 	while($row = $result->fetch_assoc()){
 		$labels .= "'" . $row['TransportType'] . "',";
-		$datas .= $row['Amount'] . ",";
+		$datas .= $row['summa'] . ",";
 	}
 	
 	// Remove the last comma from the string
