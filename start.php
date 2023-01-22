@@ -80,7 +80,7 @@ require("php\session.php");?>
                 
             </div>
             <div class="mySVG">
-<svg version="1.1" id="mosmetro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1624 767.271186440678" width="1300" height="1300"><g id="moving-wrapper" transform="translate(0 383.635593220339)"><g id="scaling-wrapper" transform="translate(520.8671946776493,-383.635593220339) scale(0.35853793758910185)"><g class="manual-marker marker-from"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g> <g class="manual-marker marker-to"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g>
+<svg version="1.1" id="mosmetro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1624 767.271186440678" width="1300" height="1400"><g id="moving-wrapper" transform="translate(0 383.635593220339)"><g id="scaling-wrapper" transform="translate(520.8671946776493,-383.635593220339) scale(0.35853793758910185)"><g class="manual-marker marker-from"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g> <g class="manual-marker marker-to"><circle cx="0" cy="0" r="5" fill="#FFFFFF"></circle></g>
   <g class="lines" stroke-linecap="round" stroke-width="8px" fill="none">
     <g class="ln11" stroke="#29B1A6" fill="none" stroke-width="8px">
     <line x1="457.4" y1="862.9" x2="542.1" y2="778.2" class="s237 s238" stroke="#29B1A6" fill="none" stroke-width="8px"></line>

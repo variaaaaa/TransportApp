@@ -27,8 +27,7 @@
 	font-weight: var(--bs-body-font-weight);
 	line-height: var(--bs-body-line-height);
   }
-.
-header{
+.header{
   margin-top:-20px;
   margin-left: -20px;
   margin-right:-20px;
