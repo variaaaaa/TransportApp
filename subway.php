@@ -68,7 +68,8 @@ require("php\session.php");?>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "php\secondTable.php"; ?>
-	@@ -75,9 +73,7 @@
+                    </table>
+                </div>
             </div> 
             <div id="botoni3" style="display: block;">      
                 <h1>Общая таблица</h1>
