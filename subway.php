@@ -57,7 +57,7 @@ require("./php/session.php");?>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\oneTable.php"; ?>
+                    <?php require "./php/oneTable.php"; ?>
                     </table>
                 </div>
             </div>           
@@ -67,7 +67,7 @@ require("./php/session.php");?>
                 <br> Всего московским метро пользуется около 10,5 миллионов человек в сутки. Самой загруженной станцией оказалась "Комсомольская" кольцевой линии - более 152 тысяч пассажиров в сутки. Второе место занимает ВДНХ с 126+ тыс. пассажиров за квартал. Последующие станции отображены в таблице:</br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\secondTable.php"; ?>
+                    <?php require "./php/secondTable.php"; ?>
                     </table>
                 </div>
             </div> 
@@ -76,7 +76,7 @@ require("./php/session.php");?>
                 <br> Наименее "популярными" станциями оказались станции Москвоского монорельса:</br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\anotherTable.php"; ?>
+                    <?php require "./php/anotherTable.php"; ?>
                     </table>
                 </div>
             </div> 
@@ -90,7 +90,7 @@ require("./php/session.php");?>
                 <br> Общая таблица всех линий </br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\button1Table.php"; ?>
+                    <?php require "./php/button1Table.php"; ?>
                     </table>
                 </div>
             </div>
@@ -99,7 +99,7 @@ require("./php/session.php");?>
                 <br> Здесь вы можете увидеть пассажиропоток по линиям Московского метро за 3 квартал 2022 года и сравнить с прошлыми годами.</br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\button2Table.php"; ?>
+                    <?php require "./php/button2Table.php"; ?>
                     </table>
                 </div>
             </div> 
@@ -108,7 +108,7 @@ require("./php/session.php");?>
                 <br> Здесь вы можете увидеть пассажиропоток по линиям Московского метро за 2 квартал 2022 года и сравнить с прошлыми и последующими годами.</br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\button3Table.php"; ?>
+                    <?php require "./php/button3Table.php"; ?>
                     </table>
                 </div>
             </div> 
@@ -117,7 +117,7 @@ require("./php/session.php");?>
                 <br> Здесь вы можете увидеть пассажиропоток по линиям Московского метро за 1 квартал 2022 года и сравнить с последующими годами.</br>
                 <div class = "topFive">
                     <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
-                    <?php require "php\button4Table.php"; ?>
+                    <?php require "./php/button4Table.php"; ?>
                     </table>
                 </div>
             </div> 
