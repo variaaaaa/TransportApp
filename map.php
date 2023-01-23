@@ -4,9 +4,6 @@ require("php\session.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Размещение в скрытом контейнере</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=ce293902-760d-436d-8849-b0834b53c615 type="text/javascript"></script>
 
     <!--
