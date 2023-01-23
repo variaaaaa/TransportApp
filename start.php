@@ -75,6 +75,7 @@ require("php\session.php");?>
                 
             </div>
             <div class="mySVG">
+                <img src="startMap.svg">
                             
 </div>
         </section>
