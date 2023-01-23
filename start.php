@@ -1,5 +1,5 @@
 <?php
-require("php\session.php");?>
+require(".\php\session.php");?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +9,7 @@ require("php\session.php");?>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/start_style.css" rel="stylesheet" />
-    </head>
+    </head> 
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
