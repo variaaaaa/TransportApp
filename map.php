@@ -1,6 +1,6 @@
 
 <?php
-require("php\session.php");?>
+require("./php/session.php");?>
 <!DOCTYPE html>
 <html>
 <head>

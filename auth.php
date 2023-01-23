@@ -1,5 +1,5 @@
 <?php
-require_once ('php/connectdb.php'); // For storing username and password.
+require_once ('./php/connectdb.php'); // For storing username and password.
 session_start();
 ?>
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ session_start();
     
 </header>
 <?php
-require('php/connectdb.php');
+require('./php/connectdb.php');
 
 // If form submitted, insert values into the database.
 if (isset($_REQUEST['username'])){

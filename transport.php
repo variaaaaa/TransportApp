@@ -1,6 +1,6 @@
 
 <?php
-	include "php/connectdb.php";
+	include "./php/connectdb.php";
 	
 	// Assign variables
 	$labels = $datas = "";
@@ -21,7 +21,7 @@
 
 ?>
 <?php
-require("php\session.php");?> 
+require("./php/session.php");?> 
 
 <!DOCTYPE html>
 <html lang="en">
