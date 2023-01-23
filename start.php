@@ -5,7 +5,9 @@ require("php\session.php");?>
     <head>
         <meta charset="utf-8" />
         <title>Транспорт Москвы</title>
-       
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/start_style.css" rel="stylesheet" />
     </head>
     <body>
