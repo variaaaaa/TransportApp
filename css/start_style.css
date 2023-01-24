@@ -32,6 +32,10 @@
     scroll-behavior: smooth;
   }
 }
+.mytable{
+  margin-top: 100px;
+  margin-bottom:100px;
+}
 
 .mySVG{
   margin-top: -150px;

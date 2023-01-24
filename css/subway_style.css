@@ -30,7 +30,7 @@
   }
   
 .header{
-	background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
+	background-color: #212529;
 	margin-top:-40px;
 	margin-left: -20px;
 	margin-right:-20px;
@@ -39,28 +39,28 @@
   
   .text{
 	
-	color: black;
+	color: rgb(253, 251, 251);
   }
   
   #here{
 	font-weight: bold;
-	text-decoration: underline;
+	
 	}
 	.menu {
-		width:300%;
+		width:100%;
 	  display: flex;
 	  align-items: center;
 	  padding-left: 50px;
 	  height: 120px;
 	  font-size: 20px;
-	  background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
+	 background-color: #212529;
 	}
 	
 	
 	.menu li a{
 	  text-transform: uppercase;
 	  text-decoration: none;
-	  color: black;
+	  color: white;
 	 
 	}
 	

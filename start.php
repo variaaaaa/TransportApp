@@ -14,7 +14,7 @@ require("./php/session.php");?>
         <!-- Responsive navbar-->
     
         <nav class="navbar navbar-dark bg-dark" margin-right="-500px" width="150%">
-            <div class="container px-5" margin-right="-500px" width="150%">
+            <div class="container px-25" margin-right="-500px" width="150%">
                 <a class="navbar-brand" href="#!">Транспорт Москвы</a>
                 <?php if($session_user):?>
                   <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>

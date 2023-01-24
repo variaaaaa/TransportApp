@@ -1,34 +1,37 @@
 
 
+<?php
+require("./php/session.php");?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
         <title>Транспорт Москвы</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/users_style.css" rel="stylesheet" />
-    </head>
+    <link href="css/start_style.css" rel="stylesheet" />
+
+    </head> 
     <body>
         <!-- Responsive navbar-->
-        <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="start.php">На главную</a>
-                
+    
+       
+        <nav class="navbar navbar-dark bg-dark" margin-right="-500px" width="150%">
+            <div class="container px-25">
+                <a class="navbar-brand" href="start.php">Транспорт Москвы</a>
+                <?php if($session_user):?>
+                  <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>
+                <?php endif;?>
+                <?php if($session_user["role"] == "admin"):?>
+                  <li><b class="text">Все зарегистрированные пользователи</b></li>
+                <?php endif;?>
+                <li><a href="logout.php" class="text" > Выйти</a></li>
             </div>
         </nav>
-</div>
-<body>
         <!-- Header-->
-        <div class="table">
-        <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black" margin-top="250px">
+        
+        <body>
+        <!-- Header-->
+        <div class="mytable">
+        <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black" margin-top="500px">
         <?php
             include "./php/connectdb.php";
         // Выводим результат из БД
@@ -56,4 +59,6 @@
         <script src="js/scripts.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
+</html>
+
 </html>
