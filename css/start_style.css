@@ -84,11 +84,11 @@ p {
 }
 
 a {
-  color: #0d6efd;
+  color: #f7f4f9;
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: #5a5f67;
 }
 
 svg {
@@ -173,12 +173,12 @@ button:not(:disabled),
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 2000px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 @media (min-width: 1400px) {
@@ -279,13 +279,14 @@ button:not(:disabled),
 }
 
 .navbar {
-  position:absolute;
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2px;
+  padding-right: 28.3%;
 }
 .navbar > .container {
   display: flex;
@@ -430,6 +431,10 @@ button:not(:disabled),
 
 .text-decoration-none {
   text-decoration: none !important;
+}
+
+.text{
+  color:white;
 }
 
 /* rtl:begin:remove */

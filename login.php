@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-require('php/connectdb.php');
+require('./php/connectdb.php');
 
 if (isset($_POST['username'])){
         // removes backslashes

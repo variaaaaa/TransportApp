@@ -12,16 +12,17 @@ require("./php/session.php");?>
     </head> 
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
+    
+        <nav class="navbar navbar-dark bg-dark" margin-right="-500px" width="150%">
+            <div class="container px-5" margin-right="-500px" width="150%">
                 <a class="navbar-brand" href="#!">Транспорт Москвы</a>
                 <?php if($session_user):?>
-                  <li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
+                  <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>
                 <?php endif;?>
                 <?php if($session_user["role"] == "admin"):?>
                   <li><a href="users.php">Все зарегистрированные пользователи</a></li>
                 <?php endif;?>
-                <li><a href="logout.php" class="text"> Выйти</a></li>
+                <li><a href="logout.php" class="text" > Выйти</a></li>
             </div>
         </nav>
         <!-- Header-->

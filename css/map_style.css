@@ -34,13 +34,24 @@
 }
 
 .text{
-
-color: black;
+color: white;
+margin: top -1px;
 }
+
 #here{
 font-weight: bold;
-text-decoration: underline;
+
 }
+h1,h3{
+  text-align: center;
+  margin-left: 150px;
+}
+
+.map{
+  margin-left: 450px;
+  padding-bottom: 50px;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -53,6 +64,8 @@ text-decoration: underline;
 .menu li a{
   text-transform: uppercase;
   text-decoration: none;
+
+
   color: black;
 }
 

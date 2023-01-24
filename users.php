@@ -30,7 +30,7 @@
         <div class="table">
         <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black" margin-top="250px">
         <?php
-            include "php/connectdb.php";
+            include "./php/connectdb.php";
         // Выводим результат из БД
             echo '<tr>'.'<th>'. "Логин пользователя". '</th>'.'<th>' ."Роль". '</th>'.'</tr>';
             $sql = mysqli_query($con, "SELECT username, role FROM Users");
