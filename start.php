@@ -20,7 +20,7 @@ require("./php/session.php");?>
                   <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>
                 <?php endif;?>
                 <?php if($session_user["role"] == "admin"):?>
-                  <li><a href="users.php">Все зарегистрированные пользователи</a></li>
+                  <li><a href="users.php">Все пользователи</a></li>
                 <?php endif;?>
                 <li><a href="logout.php" class="text" > Выйти</a></li>
             </div>
@@ -109,13 +109,23 @@ require("./php/session.php");?>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card mb-4">
                             <div class="card-body p-4">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
                                         <p class="mb-1">В 1940 году на станции Московского метро «Динамо» по ночам работали учёные-физики. Расположенная на 40-метровой глубине станция отлично была защищена от радиоволн, что, собственно, им и требовалось.</p>
                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-4" style="margin-top:10px;">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Самая тихая станция московского метрополитена — «Пражская». Так вышло благодаря особому виду керамической плитки, которой облицованы путевые стены станции. Плитка содержит многочисленные воздушные поры, поглощающие звук.</p>
                                     </div>
                                 </div>
                             </div>

@@ -21,7 +21,7 @@ require("./php/session.php");?>
                   <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>
                 <?php endif;?>
                 <?php if($session_user["role"] == "admin"):?>
-                  <li><b class="text">Все зарегистрированные пользователи</b></li>
+                  <li><b class="text">Все пользователи</b></li>
                 <?php endif;?>
                 <li><a href="logout.php" class="text" > Выйти</a></li>
             </div>

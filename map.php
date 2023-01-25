@@ -41,7 +41,7 @@ require("./php/session.php");?>
                   <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>
                 <?php endif;?>
                 <?php if($session_user["role"] == "admin"):?>
-                  <li><a href="users.php">Все зарегистрированные пользователи</a></li>
+                  <li><a href="users.php">Все пользователи</a></li>
                 <?php endif;?>
                 <li><a href="logout.php" class="text" > Выйти</a></li>
             </div>
@@ -88,7 +88,7 @@ require("./php/session.php");?>
          
         <!-- Header-->
         <h1 margin-left=""> Карта </h1>
-        <h3> Доступна только авторихованыым</h3>
+        <h3> Доступна только авторизованным пользователям.</h3>
         <div class="map">
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5844555334805cf6f9cc2bbfbfe5b4684d17bfe81ebee8e7f0c568a5c63b89c6&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
                         </div>
