@@ -18,7 +18,6 @@
 	// Remove the last comma from the string
 	$lbl = trim($labels, ",");
 	$val = trim($datas, ",");
-
 ?>
 <?php
 require("./php/session.php");?> 
@@ -34,6 +33,10 @@ require("./php/session.php");?>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Транспорт Москвы</title>
     <link rel="stylesheet" type="text/css" href="css/transport_style.css">
+	<!-- Bootstrap icons-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/start_style.css" rel="stylesheet" />
   </head>
 <body>
     <header id = "header" class="header">
@@ -41,17 +44,53 @@ require("./php/session.php");?>
             <div class="nav">
                 <ul class = "menu">
                     <li><a href="start.php" class="text" >Транспорт Москвы</a></li>
-                    <li><a href="subway.php" class="text">Статистика по метро Москвы</a></li>
-                    <li><a href="transport.php"class="text" id="here"> Статистика по всем видам транспорта Москвы</a></li>
 					<?php if($session_user):?>
-						<li><a href="map.php" class="text"> Карта</a></li>
                   		<li><a href="#">Вы зашли под аккаунтом <?=$session_user["username"]?></a></li>
                 <?php endif;?>
                     <li><a href="index.html" class="text"> Выйти</a></li>
                 </ul>
             </div>
         </div>
-    </header>	
+    </header>
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                        <h2 class="h4 fw-bolder">Статистика по метро Москвы</h2>
+                        <p>Самые загруженные станции метро за последний квартал.</p>
+                        <a class="text-decoration-none" href="subway.php">
+                            Перейти
+                            <i class="bi bi-arrow-right" href="hi.php"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <h2 class="h4 fw-bolder">Статистика по транспорту Москвы</h2>
+                        <p>Кроме метро, в городе также есть автобусы, электробусы и трамваи. Узнайте количество пассажиров на данных видах транспорта.</p>
+                        <b>
+                            Вы находитесь здесь
+                            
+					</b>
+                    </div>
+                   
+                
+                    <div class="col-lg-4">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <h2 class="h4 fw-bolder">Карта</h2>
+                        <p> Карта доступна авторизованным пользователям.</p>
+                        <?php if($session_user):?>
+                        <a class="text-decoration-none" href="map.php">
+                            Перейти
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                        <?php endif;?>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
 	<h1>3 квартал 2022</h1>
 	<div class="chart-container" style="position: relative; margin-top:90px;margin-left:100px; width:80vw">
             <canvas id="my_Chart"></canvas>
@@ -68,8 +107,8 @@ require("./php/session.php");?>
 				datasets: [{
 					label: "Количество пассажиров",
 					fill: false,
-					backgroundColor: ['#0095ff', '#00aaff', '#00b3ff', '#ffbf00', '#ffbf00', '#ffff00', '#bfff00', '#80ff00'],
-					borderColor: 'black',
+					backgroundColor: ['#F8F8FF', '#FFF5EE', '#FFF8DC'],
+					borderColor: 'white',
 					data: val,
 				}]
 			};
@@ -81,26 +120,6 @@ require("./php/session.php");?>
 				data: myData    // Chart data
 			});
 
-			// Draw chart with Ajax request
-			$('#option').on('change', function (e) {
-				var type = this.value;
-				$.ajax({
-					url: 'http://localhost:3000/get_data.php',
-					dataType: 'json',
-					data: {'id':type},
-					success: function(e){
-
-						// Delete previous chart
-						myChart.destroy();
-
-						//Draw new chart with Ajax data
-						myChart = new Chart(ctx, {
-							type: 'bar',    // Define chart type
-							data: e    		// Chart data
-						});
-					}
-				});
-			});
 		</script>
 
 	</body>

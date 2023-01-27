@@ -72,12 +72,16 @@
 	width: 100%;
 	height:500px;
   }
+  h1{
+	color: white;
+	text-align: center;
+  }
   
   body {
 	  font-family: Roboto, Verdana, Arial, Helvetica, sans-serif;
 	  color: #f9fcfc;
-	  background-image: linear-gradient(to bottom right, #2193b0,#6dd5ed, #21ABCD);
-	  background-repeat: no-repeat;
+	 background-color: #212529;
+	 
 	  font-size: 12px;
 	  height: auto;
 	  padding: 10px 0;

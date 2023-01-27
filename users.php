@@ -12,8 +12,6 @@ require("./php/session.php");?>
     </head> 
     <body>
         <!-- Responsive navbar-->
-    
-       
         <nav class="navbar navbar-dark bg-dark" margin-right="-500px" width="150%">
             <div class="container px-25">
                 <a class="navbar-brand" href="start.php">Транспорт Москвы</a>
@@ -31,12 +29,12 @@ require("./php/session.php");?>
         <body>
         <!-- Header-->
         <div class="mytable">
-        <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black" margin-top="500px">
+        <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black" margin-top="500px">
         <?php
             include "./php/connectdb.php";
         // Выводим результат из БД
             echo '<tr>'.'<th>'. "Логин пользователя". '</th>'.'<th>' ."Роль". '</th>'.'</tr>';
-            $sql = mysqli_query($con, "SELECT username, role FROM Users");
+            $sql = mysqli_query($con, "SELECT username, role FROM Users order by role");
             while ($result = mysqli_fetch_array($sql)) {
                 echo '<tr>'.'<td>' .$result['username'].'</td>'.'<td>'. $result['role'].'</td>'.'</tr>';
             }

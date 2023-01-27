@@ -56,7 +56,7 @@ require("./php/session.php");?>
                 <br margin-bottom="10px"> Поэтому в меню слева можно открыть интересующую информацию, представленную в виде таблицы или диаграммы(для диаграмм присутствует отдельная страница).</br>
                 <br> А вот и табличка: </br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/oneTable.php"; ?>
                     </table>
                 </div>
@@ -66,7 +66,7 @@ require("./php/session.php");?>
                 <h1> Таблица </h1>
                 <br> Всего московским метро пользуется около 10,5 миллионов человек в сутки. Самой загруженной станцией оказалась "Комсомольская" кольцевой линии - более 152 тысяч пассажиров в сутки. Второе место занимает ВДНХ с 126+ тыс. пассажиров за квартал. Последующие станции отображены в таблице:</br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/secondTable.php"; ?>
                     </table>
                 </div>
@@ -75,7 +75,7 @@ require("./php/session.php");?>
                 <h1>Общая таблица</h1>
                 <br> Наименее "популярными" станциями оказались станции Москвоского монорельса:</br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/anotherTable.php"; ?>
                     </table>
                 </div>
@@ -89,7 +89,7 @@ require("./php/session.php");?>
                 <h1>Общая таблица</h1>
                 <br> Общая таблица всех линий </br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/button1Table.php"; ?>
                     </table>
                 </div>
@@ -98,7 +98,7 @@ require("./php/session.php");?>
             <h1>Таблица</h1>
                 <br> Здесь вы можете увидеть пассажиропоток по линиям Московского метро за 3 квартал 2022 года и сравнить с прошлыми годами.</br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/button2Table.php"; ?>
                     </table>
                 </div>
@@ -107,7 +107,7 @@ require("./php/session.php");?>
             <h1>Таблица</h1>
                 <br> Здесь вы можете увидеть пассажиропоток по линиям Московского метро за 2 квартал 2022 года и сравнить с прошлыми и последующими годами.</br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/button3Table.php"; ?>
                     </table>
                 </div>
@@ -116,7 +116,7 @@ require("./php/session.php");?>
             <h1>Таблица</h1>
                 <br> Здесь вы можете увидеть пассажиропоток по линиям Московского метро за 1 квартал 2022 года и сравнить с последующими годами.</br>
                 <div class = "topFive">
-                    <table bordercolor = "black" bgcolor = "white" width = "500" align="center" text-color="black">
+                    <table bordercolor = "blue" bgcolor = "white" width = "500" align="center" text-color="black">
                     <?php require "./php/button4Table.php"; ?>
                     </table>
                 </div>
