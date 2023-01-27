@@ -39,7 +39,7 @@ require("./php/session.php");?>
                         <h2 class="h4 fw-bolder">Статистика по метро Москвы</h2>
                         <p>Самые загруженные станции метро за последний квартал.</p>
                         <a class="text-decoration-none" href="subway.php">
-                            Перейти
+                            Вернуться
                             <i class="bi bi-arrow-right" href="hi.php"></i>
                         </a>
                     </div>
@@ -47,10 +47,10 @@ require("./php/session.php");?>
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
                         <h2 class="h4 fw-bolder">Статистика по транспорту Москвы</h2>
                         <p>Кроме метро, в городе также есть автобусы, электробусы и трамваи. Узнайте количество пассажиров на данных видах транспорта.</p>
-                        <b>
-                            Вы находитесь здесь
-                            
-					</b>
+                        <a class="text-decoration-none" href="subway.php">
+                            Перейти
+                            <i class="bi bi-arrow-right" href="hi.php"></i>
+                        </a>
                     </div>
                    
                 

@@ -36,7 +36,7 @@ require("./php/session.php");?>
        
         <nav class="navbar navbar-dark bg-dark" margin-right="-500px" width="150%">
             <div class="container px-5" margin-right="-500px" width="150%">
-                <a class="navbar-brand" href="#!">Транспорт Москвы</a>
+                <a class="navbar-brand" href="start.php">Транспорт Москвы</a>
                 <?php if($session_user):?>
                   <li><b class="text">Вы зашли под аккаунтом <?=$session_user["username"]?></b></li>
                 <?php endif;?>
@@ -76,9 +76,7 @@ require("./php/session.php");?>
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
                         <h2 class="h4 fw-bolder">Карта</h2>
                         <p> Карта доступна авторизованным пользователям.</p>
-                        <?php if($session_user):?>
-                        <strong> Вы находитесь тут.</strong>
-                        <?php endif;?>
+                        
                     </div>
                    
                 </div>

@@ -31,12 +31,18 @@
   
 .header{
   margin-top:-20px;
-  margin-left: -20px;
+  margin-left: 10px;
   margin-right:-20px;
 }
 
 .map{
   margin-top: 200px;
+}
+
+.nav{
+  width:110%;
+  margin-left: -54px;
+  margin-right: -50px;
 }
 
 .text{
